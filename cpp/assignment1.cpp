@@ -3,9 +3,7 @@
 *  	Write a Program that stores the integers 92 and 22 in variables 
 *	and stores the sum of these two in a variable name total
 *   
-*   Author: Carlos Abraham Hernandez
-*	
-*  	carlos.hernandez107@mymdc.net
+*   	Author: Carlos Abraham Hernandez
 *	
 */
 
