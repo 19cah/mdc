@@ -5,29 +5,36 @@
 *
 *   Volume = π * radius^2 * height
 *
-*   Author: Carlos Abraham Hernandez, 19cah.com
+*   Author: Carlos Abraham Hernandez
 *
 */
 
 #include <iostream>
-#include <math.h> //to use pow()
-
+#include <cmath> //to use pow();
 using namespace std;
 
-#define pi 3.14159 //remebering  value of pi
+const double PI = 3.14159; //assigning value to constant PI
+
+double volumeCalculator(double radius, double height);
 
 int main()
 {
 	//declaring variables
-	float height = 25.85, radius = 8.67, volume;
+	double radius = 8.67, height = 25.85, volume;
 
-	//use volume formula 
-	volume = pi * pow(radius, 2) * height;
+	volume = volumeCalculator(radius, height);
 
-	//print the value to the screen
+	//pinting Volume value
 	cout << "The volume of the cylinder with radius " << radius << " and height " << height << " is " << volume << endl;
 
 	system("pause");
 	return 0;
+}
 
+/* Volume Function Calculator */
+double volumeCalculator(double radius, double height)
+{
+	//use volume formula
+	double volume = pow(radius, 2) * height * PI;
+	return volume;
 }
