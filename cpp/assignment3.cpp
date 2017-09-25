@@ -9,7 +9,7 @@ int main()
 	cin >> seconds;
   
   
-  minutes = seconds / 60;
+ 	minutes = seconds / 60;
 	second = seconds % 60;
   
   
