@@ -1,21 +1,45 @@
+/*
+*
+*   Write a short C++ program that 
+*   converts seconds to minutes and seconds.
+*
+*   Author: Carlos Abraham Hernandez
+*   www.19cah.com   @19cah
+*
+*/
+
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	int minutes, seconds, second;
+	int getSeconds, minutes, seconds;
 	
+	cout << "This program converts seconds into minutes and seconds.\n";
+	
+	//Get input from user
 	cout << "Enter seconds: ";
-	cin >> seconds;
+	cin >> getSeconds;
+	
+	minutes = getSeconds / 60;
+	seconds = getSeconds % 60;
+	
+	cout << "In " << getSeconds << " seconds there are ";
+	
+	//print minute or minutes 
+	if (minutes == 1)
+		cout << minutes << " minute";
+	else
+		cout << minutes << " minutes";
+	
+	cout <<" and ";
+	
+	//print second or seconds	
+	if (seconds == 1)
+		cout << seconds << " second\n";
+	else
+		cout << seconds << " seconds\n";
   
-  
- 	minutes = seconds / 60;
-	second = seconds % 60;
-  
-  
-  cout << "minutes: " << minutes << endl;
-	cout << "seconds: " << second << endl;
-  
-  system("pause");
+  //system("pause");
 
 }
