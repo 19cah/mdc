@@ -40,6 +40,7 @@ int main()
 	else
 		cout << seconds << " seconds\n";
   
-  //system("pause");
+  system("pause");
+  return 0;
 
 }
