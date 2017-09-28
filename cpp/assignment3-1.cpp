@@ -74,6 +74,6 @@ int main()
 	if (reminder >= PENNIE) //Don't print 'Pennies' if there are not pennies to print
 		cout << "Pennies: " << reminder << endl;
 
-	//cin.get();
+	system("pause");
 	return 0;
 }
