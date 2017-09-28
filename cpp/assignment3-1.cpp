@@ -19,7 +19,7 @@ int main()
 	int result_half_dollar, result_quaters, result_dimes, result_nickels; //Result Value by Coin
 
 	cout << "This program calculate the amount of coins in an input expressed in cents.\n";
-	/* -- Do not accept any correct value --  */
+	/* -- Do not accept any incorrect value --  */
 	do
 	{
 		cout << "How many cents do you have? "; //Ask user for input
