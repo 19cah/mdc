@@ -1,3 +1,12 @@
+/*
+*
+*  	Write a Program getting strings from the user
+*	using getline() and ignore using cin.ignore()
+*   
+*   	Author: Carlos Abraham Hernandez
+*	
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
