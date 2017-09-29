@@ -14,6 +14,7 @@ using namespace std;
 int main()
 {
 	int getSeconds, minutes, seconds;
+	const int MINUTE = 60;
 	
 	cout << "This program converts seconds into minutes and seconds.\n";
 	
@@ -21,8 +22,8 @@ int main()
 	cout << "Enter seconds: ";
 	cin >> getSeconds;
 	
-	minutes = getSeconds / 60;
-	seconds = getSeconds % 60;
+	minutes = getSeconds / MINUTE;
+	seconds = getSeconds % MINUTE;
 	
 	cout << "In " << getSeconds << " seconds there are ";
 	
