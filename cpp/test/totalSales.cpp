@@ -1,3 +1,12 @@
+/*
+*
+*  	Write a Program to calculate the total
+*	Using setw() and setprecision() fixed;
+*   
+*   	Author: Carlos Abraham Hernandez
+*	
+*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
