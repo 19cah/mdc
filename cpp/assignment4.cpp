@@ -38,41 +38,38 @@ int main()
   cout << "This program calculates a theater's gross and box office revenue\n";
   cout << "What is the title of the movie:\t";
   getline(cin, movieName); //To get the complete title sentence;
+
   cout << "How many adult tickets were sold: ";
   cin >> adults;
   cout << "How many child tickets were sold: ";
   cin >> children;
 
-  //Gross Box Office Profit
+  //Find Gross Box Office Profit
   grossOfficeProfit = (adults * ADULT_PRICE) + (children * CHILD_PRICE);
 
-  cout << "Movie Name: "<< setw(43) << movieName << endl;//fixed <<"\"" << movieName <<"\"";
-  cout << "Adult Ticket Sold: " << setw(26) << adults <<endl;
-  cout << "Child Ticket Sold: " << setw(26) << children <<endl;
-  cout << "Gross Box Office Profit: " << setw(26) << setprecision(2) << fixed <<"$ " << grossOfficeProfit << endl;
+  cout << endl <<endl;
+  cout << "Movie Name: "<< setw(47) << movieName << endl;
+  cout << "Adult Ticket Sold: " << setw(35) << adults <<endl;
+  cout << "Child Ticket Sold: " << setw(35) << children <<endl;
 
-  //Net Box Office Profit or 20 % of Revenue
+  //To use two decimal numbers
+  cout << setprecision(2) << fixed;
+
+  cout << "Gross Box Office Profit: " << setw(24) <<"$";
+  cout << setw(8) << grossOfficeProfit << endl;
+
+  //Find Net Box Office Profit or 20 % of Revenue
   netBoxOffice = (grossOfficeProfit * 20) / 100;
 
-  cout << "Net Box Office Profit: " << setw(26) <<"$ " << netBoxOffice << endl;
+  cout << "Net Box Office Profit: " << setw(26) <<"$";
+  cout << setw(8) << netBoxOffice << endl;
 
-   // Movie Theater Revenue
+   //Find Movie Theater Revenue
    movieTheaterRevenue = grossOfficeProfit - netBoxOffice;
 
-   cout << "Movie Theater Revenue: " << setw(26) <<"$ " << movieTheaterRevenue << endl;
+   cout << "Movie Theater Revenue: " << setw(26) <<"$";
+   cout << setw(8) << movieTheaterRevenue << endl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+return 0;
+//system("pause");
 }
