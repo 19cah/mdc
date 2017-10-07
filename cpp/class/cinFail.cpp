@@ -1,3 +1,13 @@
+/*
+*
+*  	    Use cin.fail() 
+*       cin.fail() detects whether the value entered 
+*       fits the value defined in the variable.
+*       
+*   	Author: Carlos Abraham Hernandez
+*	
+*/
+
 #include <iostream>
 using namespace std;
 
