@@ -1,4 +1,4 @@
 # Using Switch in C++
 
 • Phone Keyword (keyword.cpp)
-![Picture](keyword_iPhone.jpg)
+![Picture](images/keyword_iPhone.jpg)
