@@ -1,3 +1,16 @@
+/*
+*
+*  Write a program to determine student classification 
+*  according with the following schedule:
+*  
+*   < 32 credits                 Freshman
+*   < 32 credits >= 32 but < 64  Sophomore
+*   < 32 credits >=64 but  < 95  Junior
+*   < 32 credits >=96            Senior
+*
+*   Author: Carlos Abraham Hernandez, @19cah
+*
+*/
 #include <iostream>
 #include <string>
 using namespace std;
