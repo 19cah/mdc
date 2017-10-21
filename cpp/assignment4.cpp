@@ -48,27 +48,34 @@ int main()
   grossOfficeProfit = (adults * ADULT_PRICE) + (children * CHILD_PRICE);
 
   cout << endl <<endl;
-  cout << "Movie Name: "<< setw(47) << movieName << endl;
-  cout << "Adult Ticket Sold: " << setw(35) << adults <<endl;
-  cout << "Child Ticket Sold: " << setw(35) << children <<endl;
+  cout << "Movie Name: "<< setw(47) << right << movieName << endl;
+
+  for(int i = 0; i < 40; i++)
+  {
+    cout << "--";
+  }
+  cout << endl;
+
+  cout << "Adult Ticket Sold: " << setw(35) << right << adults <<endl;
+  cout << "Child Ticket Sold: " << setw(35) << right << children <<endl;
 
   //To use two decimal numbers
   cout << setprecision(2) << fixed;
 
-  cout << "Gross Box Office Profit: " << setw(24) <<"$";
-  cout << setw(8) << grossOfficeProfit << endl;
+  cout << "Gross Box Office Profit: " << setw(24) << right <<"$ ";
+  cout << setw(40) << left << grossOfficeProfit << endl;
 
   //Find Net Box Office Profit or 20 % of Revenue
   netBoxOffice = (grossOfficeProfit * 20) / 100;
 
-  cout << "Net Box Office Profit: " << setw(26) <<"$";
-  cout << setw(8) << netBoxOffice << endl;
+  cout << "Net Box Office Profit: "  << setw(26) << right <<"$ ";
+  cout << setw(40) << left << netBoxOffice << endl;
 
    //Find Movie Theater Revenue
    movieTheaterRevenue = grossOfficeProfit - netBoxOffice;
 
-   cout << "Movie Theater Revenue: " << setw(26) <<"$";
-   cout << setw(8) << movieTheaterRevenue << endl;
+   cout << "Movie Theater Revenue: " << setw(26) << right <<"$ ";
+   cout << setw(40) << left << movieTheaterRevenue << endl;
 
 return 0;
 //system("pause");
