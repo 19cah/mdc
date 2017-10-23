@@ -1,22 +1,43 @@
+/**
+*
+*    Write a for loop that will display all the odd numbers and their squares
+*    Ex: 
+*	      “1 squared: 1”
+*	      “3 squared: 9”
+*	      “5 squared: 25”
+*
+*   (c) Carlos Abraham Hernandez, @19cah 
+*
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main()
 {
-  int number = 1, squareNum, finalNum;
-  cout << "ODDS NUMBERS" << endl;
-  for(int i = 0; i < 13; i++)
-  {
-    cout << "-";
-  }
-  cout << "\nHow many numbers you want to know the square?: ";
-  cin >> finalNum;
+	int number = 1, squareNum, lastNum;
+	
+	cout << "ONLY ODDS NUMBERS" << endl;
+	
+	// Print --- below Header 
+	for (int i = 0; i < 15; i++)
+	{
+		cout << "-";
+	}
 
-  for(int i = 0; i < finalNum; i++)
-  {
-    squareNum = pow(number, 2);
-    cout << number << " squared: " << squareNum <<endl;
-    number += 2;
-  }
+	//How many numbers the user want to know the square
+	cout << "\nHow many odd numbers do you want to know the square?: ";
+	cin >> lastNum;
+
+	//loop
+	for (int i = 0; i < lastNum; i++)
+	{
+		squareNum = pow(number, 2);
+		cout << number << " squared: " << squareNum << endl;
+		//Increment number by 2 to get odds numbers
+		number += 2;
+	}
+
+	system("pause");
+	return 0;
 }
