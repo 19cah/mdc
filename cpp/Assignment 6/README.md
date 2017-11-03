@@ -55,5 +55,9 @@ If the user enters:
 
 The [answer](assignment6.cpp) for this project is only avilable for Windows Operating System, because we are using `#include <conio.h>` and `#include <Windows.h>` . So if you work with Visual Studio, you can use it
 
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%206/assignment6.cpp)
+
+---
+
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
