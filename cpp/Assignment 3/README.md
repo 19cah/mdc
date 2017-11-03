@@ -6,5 +6,8 @@
 Input: Change in cents
 Output: Equivalent change in `half-dollars`, `quarters`, `dimes`, `nickels`, and `pennies`.
 
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%203/assignment3.cpp)
+
+---
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
