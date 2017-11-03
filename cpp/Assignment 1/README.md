@@ -6,10 +6,8 @@ See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignmen
 
 ---
 
-copyrigth (c) [Abraham @19cah](https://github.com/19cah)
 
 
-var md = require('markdown-it')()
-            .use(require('markdown-it-center-text'));
- 
-md.render('->Centered Text<-') // => '<div style="text-align: center;">Centered Text</div>'
+<p align="center">
+  copyrigth (c) <a href="https://github.com/19cah">Abraham @19cah</a> 
+</p>
