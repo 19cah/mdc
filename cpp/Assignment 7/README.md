@@ -14,5 +14,8 @@ and so on.
 Note the space after the number – i.e. `1squared` (no space after squared and colon character) 
 But there is the space after the colon character `(:)` :squareofthenumber”
 
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%207/assignment7.cpp)
+
+---
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
