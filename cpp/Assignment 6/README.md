@@ -50,5 +50,10 @@ If the user enters:
 `D` or `d`, the program needs to display: `Thank you for using COP 1334 ATM Machine. Have a nice day!`
 
 
+---
+
+
+The [answer](assignment6.cpp) for this project is only avilable for Windows Operating System, because we are using `#include <conio.h>` and `#include <Windows.h>` . So if you work with Visual Studio, you can use it
+
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
