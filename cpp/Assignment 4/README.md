@@ -19,4 +19,8 @@ Net Box Office Profit:                                                 $   916.4
 Amount Paid to Distributor:                                            $ 3,665.60
 ```
 
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%204/assignment4.cpp)
+
+---
+
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
