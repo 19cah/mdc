@@ -44,7 +44,7 @@ Assign appropriate value to `studentClassification` variable when you use condit
 The program needs to display the contents of the `studentClassification` variable in the following manner:
 In case the input value was `24`
 
-“24 completed credits makes you’re a Freshman” similarly, for sophomore, junior and senior values.
+`24` completed credits makes you a `Freshman` similarly, for `Sophomore`, `Junior` and `Senior` values.
 
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
