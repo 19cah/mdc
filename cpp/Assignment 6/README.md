@@ -31,10 +31,21 @@ choices:
  
  
 Prompt the user for their `PIN`. Make sure the pin is an integer and reject all other data types with an error message: `Wrong data type. Please run the program again!`
+
 Reject user `PIN` if it is a negative number. If the user enters negative `PIN`, the program needs to display the following error message: `Error! Invalid PIN. Please run the program again!`
+
 Reject all the `PIN`s user enters that are not equal to `1111`. Display the following message if the user enters a wrong PIN: `Error! Invalid PIN. Please run the program again!`
+
 Once the user enters a correct `PIN`, present them with a menu followed by a prompt to enter their choice. Make sure the user can enter only `A,a,B,b,C,c, or D,d`. Reject any other input and display the following error message: `Please run the program again and enter A|a, B|b, C|c or D|d only!`
-Once the user enters a correct `PIN`, present them with a menu followed by a prompt to enter their choice. If the user enters: `A` or `a`, the program needs to display: `Deposit selected` `B` or `b`, the program needs to display: `Withdraw selected`, `C` or `c`, the program needs to display: `Check Balance selected`, `D` or `d`, the program needs to display: `Thank you for using COP 1334 ATM Machine. Have a nice day!`
+
+Once the user enters a correct `PIN`, present them with a menu followed by a prompt to enter their choice. 
+
+If the user enters: 
+
+`A` or `a`, the program needs to display: `Deposit selected`
+`B` or `b`, the program needs to display: `Withdraw selected`
+`C` or `c`, the program needs to display: `Check Balance selected`
+`D` or `d`, the program needs to display: `Thank you for using COP 1334 ATM Machine. Have a nice day!`
 
 
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
