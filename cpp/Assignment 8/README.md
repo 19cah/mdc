@@ -13,4 +13,8 @@ Write a program that opens the file, reads all the numbers from the file, and ca
 
 We use the file [`random.txt`](random.txt) to use the values on the program
 
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%208/assignment8.cpp)
+
+---
+
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
