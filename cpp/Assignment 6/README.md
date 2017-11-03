@@ -16,7 +16,7 @@ choices:
     Your Choice:
  ```
  
-    Note: the user can enter upper or lower case for the menu choices so your
+ Note: the user can enter upper or lower case for the menu choices so your
     programming logic needs to mitigate that. The program should display an
     error message if the user enters anything other than allowed menu choices.
     Also, use defensive programming technique discussed in class to make sure
