@@ -39,7 +39,6 @@ Reject all the `PIN`s user enters that are not equal to `1111`. Display the foll
 Once the user enters a correct `PIN`, present them with a menu followed by a prompt to enter their choice. Make sure the user can enter only `A,a,B,b,C,c, or D,d`. Reject any other input and display the following error message: `Please run the program again and enter A|a, B|b, C|c or D|d only!`
 
 Once the user enters a correct `PIN`, present them with a menu followed by a prompt to enter their choice. 
-
 If the user enters: 
 
 `A` or `a`, the program needs to display: `Deposit selected`
