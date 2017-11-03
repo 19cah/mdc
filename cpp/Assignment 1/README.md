@@ -9,4 +9,7 @@ See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignmen
 copyrigth (c) [Abraham @19cah](https://github.com/19cah)
 
 
-->Centered Text<- => <div style="text-align: center;">Centered Text</div>
+var md = require('markdown-it')()
+            .use(require('markdown-it-center-text'));
+ 
+md.render('->Centered Text<-') // => '<div style="text-align: center;">Centered Text</div>'
