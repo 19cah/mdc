@@ -43,8 +43,11 @@ Once the user enters a correct `PIN`, present them with a menu followed by a pro
 If the user enters: 
 
 `A` or `a`, the program needs to display: `Deposit selected`
+
 `B` or `b`, the program needs to display: `Withdraw selected`
+
 `C` or `c`, the program needs to display: `Check Balance selected`
+
 `D` or `d`, the program needs to display: `Thank you for using COP 1334 ATM Machine. Have a nice day!`
 
 
