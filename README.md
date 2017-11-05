@@ -6,6 +6,9 @@
   <a href="https://twitter.com/intent/follow?screen_name=19cah">
         <img src="https://img.shields.io/twitter/follow/19cah.svg?style=social"
             alt="follow on Twitter"></a>
+<a href="https://github.com/19cah">
+        <img src="https://img.shields.io/github/followers/19cah.svg?style=social&label=Follow"
+            alt="follow on Github"></a>
 </p>
 
 # MDC Computer Science
