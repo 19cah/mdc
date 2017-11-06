@@ -1,6 +1,6 @@
 
 <p  align="center">
-  <a href="https://travis-ci.org/badges/shields">
+  <a href="https://travis-ci.org/19cah/mdc">
         <img src="https://travis-ci.org/19cah/mdc.svg?branch=master"
             alt="build status"></a>
   <a href="https://twitter.com/intent/follow?screen_name=19cah">
