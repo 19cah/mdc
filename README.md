@@ -9,6 +9,11 @@
 <a href="https://github.com/19cah">
         <img src="https://img.shields.io/github/followers/19cah.svg?style=social&label=Follow"
             alt="follow on Github"></a>
+  
+  <a href="https://github.com/19cah">
+        <img src="https://img.shields.io/github/issues/detail/u/badges/shields/979.svg"
+            alt="follow on Github"></a>
+  
 </p>
 
 # MDC Computer Science
