@@ -50,4 +50,8 @@ See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignmen
 
 ---
 
-copyrigth (c) [Abraham @19cah](https://github.com/19cah)
+<p align="center">
+  copyrigth (c) <a href="https://github.com/19cah">
+        <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
+            alt="Carlos Abraham"></a>
+</p>
