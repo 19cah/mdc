@@ -17,5 +17,8 @@ But there is the space after the colon character `(:)` :squareofthenumber”
 See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%207/assignment7.cpp)
 
 ---
-
-copyrigth (c) [Abraham @19cah](https://github.com/19cah)
+<p align="center">
+  copyrigth (c) <a href="https://github.com/19cah">
+        <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
+            alt="Carlos Abraham"></a>
+</p>
