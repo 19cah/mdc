@@ -17,4 +17,3 @@
         <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
             alt="Carlos Abraham"></a>
 </p>
-Click [Here](http://google.com)
