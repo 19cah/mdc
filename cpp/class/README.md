@@ -1,3 +1,3 @@
-rcruz2@mdc.edu
+Emamil: rcruz2@mdc.edu
 
-visit [site](https://icpc.baylor.edu)
+Olympic Programming Competitions [site](https://icpc.baylor.edu)
