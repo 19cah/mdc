@@ -27,6 +27,8 @@ int main()
     do
     {
         cout << "Enter a num: "; cin >> num;
+        
+        //Validating user input
        (num <= 0 || num > 15) ? valid = false : valid = true;
         
        if(!valid) 
