@@ -27,4 +27,4 @@ int main() {
 	return 0;
 }
 ```
-[←Back](https://19cah.com/mdc/cpp/Assignment%201/assignment1/)
+[←Back](https://19cah.com/mdc/cpp/Assignment%201/)
