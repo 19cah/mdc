@@ -8,6 +8,9 @@ Output: Equivalent change in `half-dollars`, `quarters`, `dimes`, `nickels`, and
 
 See answer [`assignment3.1.cpp`](assignment3.1)
 
+See answer [`assignment3.2.cpp`](assignment3.2)
+
+
 ---
 
 [←Back](https://19cah.com/mdc/cpp/)
