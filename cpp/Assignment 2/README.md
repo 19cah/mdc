@@ -10,12 +10,13 @@ Write a short C++ program that will calculate the volume of the cylinder using t
 
 Recall that π = 3.14159. Use good programming practices.
 
-See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%202/assignment2.cpp)
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%202/assignment2/assignment2.cpp)
 
+[←Back](https://19cah.com/mdc/class/)
 ---
 
 <p align="center">
-  copyrigth (c) <a href="https://github.com/19cah">
+  <a href="https://github.com/19cah">
         <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
             alt="Carlos Abraham"></a>
 </p>
