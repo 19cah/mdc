@@ -19,12 +19,16 @@ Net Box Office Profit:                                                 $   916.4
 Amount Paid to Distributor:                                            $ 3,665.60
 ```
 
+See answer [`assignment4.cpp`](assignment4)
+
 See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%204/assignment4.cpp)
 
 ---
 
+[←Back](https://19cah.com/mdc/cpp/)
+
 <p align="center">
-  copyrigth (c) <a href="https://github.com/19cah">
+  <a href="https://github.com/19cah">
         <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
             alt="Carlos Abraham"></a>
 </p>
