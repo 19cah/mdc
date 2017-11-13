@@ -15,8 +15,7 @@ const int MY_SENTINEL = -10;
 
 int main()
 {
-    double billAmt,
-           totalProfit = 0.0;
+    double billAmt, totalProfit = 0.0;
     int numCostumers = 0;
     
     cout << "Enter the bill amount: ";
