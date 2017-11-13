@@ -11,11 +11,13 @@
 * [Assignmet 9](Assignment%209)
 
 ---
+
 [Class](class)
----
+
+
 
 <p align="center">
-  copyrigth (c) <a href="https://github.com/19cah">
+    <a href="https://github.com/19cah">
         <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
             alt="Carlos Abraham"></a>
 </p>
