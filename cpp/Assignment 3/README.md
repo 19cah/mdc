@@ -6,12 +6,16 @@
 Input: Change in cents
 Output: Equivalent change in `half-dollars`, `quarters`, `dimes`, `nickels`, and `pennies`.
 
-See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%203/assignment3.cpp)
+See answer [`assignment3.cpp`](assignment3)
+
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%203/assignment3/assignment3.cpp)
 
 ---
 
+[←Back](https://19cah.com/mdc/cpp/)
+
 <p align="center">
-  copyrigth (c) <a href="https://github.com/19cah">
+  <a href="https://github.com/19cah">
         <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
             alt="Carlos Abraham"></a>
 </p>
