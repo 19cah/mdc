@@ -11,6 +11,8 @@
 * [Assignmet 9](Assignment%209)
 
 ---
+[Class](class)
+---
 
 <p align="center">
   copyrigth (c) <a href="https://github.com/19cah">
