@@ -2,7 +2,7 @@
 
 Write a program that stores the integers 92 and 22 in variables, and stores the sum of these two in a variable name total.
 
-[`assignment1.cpp`](assignment1)
+See answer [`assignment1.cpp`](assignment1)
 
 See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%201/assignment1/assignment1.cpp) 
 
