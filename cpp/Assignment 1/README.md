@@ -8,7 +8,7 @@ See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignmen
 
 ---
 
-[←Back](https://19cah.com/mdc/class/)
+[←Back](https://19cah.com/mdc/cpp/)
 
 <p align="center">
    <a href="https://github.com/19cah">
