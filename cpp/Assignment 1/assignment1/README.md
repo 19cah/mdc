@@ -1,4 +1,4 @@
-```c
+```cpp
 /*
 *
 *  	Write a Program that stores the integers 92 and 22 in variables 
