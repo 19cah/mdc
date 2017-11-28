@@ -4,15 +4,22 @@
  *    Write a program that lets the user play the game 
  *    Rock, Paper Scissors against the computer.
  * 
- *    Author: Carlos Abraham Hernandez
- *    www.github.com/19cah/
+ *    Author: 
+ *    Carlos Abraham Hernandez
+ *    miamidadecollege.ml/assignment10
+ *    
+ *    Credits
+ *    ========
+ *    Font Generator:
+ *    www.patorjk.com/software/taag/
  * 
+ * 
+ */
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
 #include <string>
 using namespace std;
-
 
 void slogan();
 void instructions();
@@ -46,6 +53,7 @@ int main()
     whatWasSelected(computerChoice);
     displayChoice(result);
     
+    //Repeat Game if the user want
     cout << "Would you like to play Again? Y/N ";
     cin >> again;
   }
@@ -55,7 +63,9 @@ int main()
   return 0;
 }
 
-void slogan() //Print "Rock, Paper, Scissors Game"
+
+// Print "Rock, Paper, Scissors Game"
+void slogan()
 {
   cout << "   ___           __     ___                      ____    _                        " << endl;
   cout << "  / _ \\___  ____/ /__  / _ \\___ ____  ___ ____  / __/___(_)__ ___ ___  _______    " << endl;
@@ -67,6 +77,7 @@ void slogan() //Print "Rock, Paper, Scissors Game"
   cout << "              \\___/\\_,_/_/_/_/\\__/                                                " << endl;
 }
 
+// Print Game Instructions
 void instructions()
 {
   cout << endl;
@@ -84,6 +95,7 @@ void instructions()
   
 }
 
+// Get User Input
 int getUserChoice()
 {
   int userInput;
@@ -92,6 +104,7 @@ int getUserChoice()
   cout << "              Select your choice: "; 
   cin >> userInput;
   
+  //Ingnore any invalid value entered (Must be 1,2 or 3)
   while(cin.fail() || ((userInput != ROCK) && (userInput != PAPER) && (userInput != SCISSORS)) )
     {
         cin.clear();
@@ -104,6 +117,7 @@ int getUserChoice()
   return userInput;
 }
 
+//Generate a Random Number
 int getComputerChoice()
 {
   unsigned int seed = time(0);
@@ -113,6 +127,7 @@ int getComputerChoice()
   return randomNum;
 }
 
+//Determine who is the Winner
 string determineWinner(int userValue, int cpuValue)
 {
   string result;
@@ -126,6 +141,7 @@ string determineWinner(int userValue, int cpuValue)
   return result;
 }
 
+//Display Game Result
 void displayChoice(string result)
 {
   if(result == "win")
@@ -160,6 +176,7 @@ void displayChoice(string result)
   }  
 }
 
+// Print CPU selection
 void whatWasSelected(int value)
 {
   if(value == 1)
