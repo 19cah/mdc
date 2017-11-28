@@ -19,11 +19,11 @@ If both players make the same choice, the game must be played again to determine
 
 Be sure to divide the program into functions that perform each major task.
 
-getUserChoice
+`getUserChoice()`
 
-getComputerChoice
+`getComputerChoice()`
 
-determineWinner
+`determineWinner()`
 
-displayChoice
+`displayChoice()`
  
