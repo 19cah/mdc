@@ -6,10 +6,11 @@
  * 
  *    Author: 
  *    Carlos Abraham Hernandez
- *    miamidadecollege.ml/assignment10
+ *    https://miamidadecollege.ml/assignment10/
  *    
- *    Credits
- *    ========
+ *    View online:
+ *    https://repl.it/@19cah/assignment10/
+ * 
  *    Font Generator:
  *    www.patorjk.com/software/taag/
  * 
@@ -131,13 +132,13 @@ int getComputerChoice()
 string determineWinner(int userValue, int cpuValue)
 {
   string result;
-  
-  if(userValue == cpuValue)
-    result = "tie";
     
   //Return the result depending on the User Choice
   ((userValue == ROCK && cpuValue == SCISSORS) || (userValue == PAPER && cpuValue == ROCK) || (userValue ==  SCISSORS && cpuValue == PAPER)) ? result = "win" : result = "lose";
   
+  if(userValue == cpuValue)
+    result = "tie";
+    
   return result;
 }
 
