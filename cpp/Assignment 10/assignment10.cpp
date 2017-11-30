@@ -6,10 +6,10 @@
  * 
  *    Author: 
  *    Carlos Abraham Hernandez
- *    https://miamidadecollege.ml/assignment10/
+ *    miamidadecollege.ml/assignment10
  *    
  *    View online:
- *    https://repl.it/@19cah/assignment10/
+ *    repl.it/@19cah/assignment10
  * 
  *    Font Generator:
  *    www.patorjk.com/software/taag/
