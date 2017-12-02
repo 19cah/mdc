@@ -14,7 +14,7 @@
             alt="fork on Github"></a>
 </p>
 
-# MDC Computer Science
+# Computer Science
 Miami  Dade College Computer Science Classes Purposes.
 
 #### 2017
