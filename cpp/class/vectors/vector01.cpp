@@ -25,7 +25,7 @@ void displayHours(vector<int>& hours)
 {
     for(int i = 0; i < hours.size(); i++)
     {
-        cout << "The hours of the employee "<< i + 1 << " is " << hours[i] << endl;
+        cout << "The employee "<< i + 1 << " worked " << hours[i] << " hours."<< endl;
     }
     
 }
