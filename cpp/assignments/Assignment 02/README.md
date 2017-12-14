@@ -14,7 +14,7 @@ See answer [`assignment2.cpp`](assignment2)
 
 See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%202/assignment2/assignment2.cpp)
 
-[←Back](https://19cah.com/mdc/class/)
+[←Back](./)
 
 ---
 
