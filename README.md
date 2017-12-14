@@ -19,9 +19,10 @@ Miami  Dade College Computer Science Classes Purposes.
 
 #### 2017
 * [C++](cpp)
+* [Java](java)
 
 
-See on Github [here](https://github.com/19cah/mdc)
+See on Github [here](/19cah/mdc)
 
 ---
 <!-- CopyRight -->
