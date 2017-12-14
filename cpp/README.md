@@ -15,7 +15,8 @@
 
 ---
 
-[Class](class)
+- [Class](class)
+- [Assignments](assignmetns)
 
 [Back](/)
 
