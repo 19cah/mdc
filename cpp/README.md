@@ -1,7 +1,7 @@
 ## Content
 
 - [Class](class)
-- [Assignments](assignmetns)
+- [Assignments](assignments)
 - [Resources](resources)
 
 
