@@ -1,8 +1,7 @@
 ## Resources
 
-* Chapter 1
-01.pdf
-02.pdf
+* Chapter 101.pdf
+* 02.pdf
 03.pdf
 04.pdf
 05.pdf
