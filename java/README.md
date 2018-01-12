@@ -9,6 +9,9 @@
   <a href="https://github.com/19cah/mdc/fork">
         <img src="https://img.shields.io/github/forks/19cah/mdc.svg?style=social&label=Fork"
             alt="fork on Github"></a>
+   <a href="https://github.com/19cah">
+        <img src="https://img.shields.io/badge/Author-%4019cah-orange.svg"
+            alt="Carlos Abraham"></a>
 </p>
 
 # Computer Science
@@ -20,12 +23,4 @@ Miami  Dade College Computer Science Classes Purposes.
 
 See on Github [here](https://github.com/19cah/mdc)
 
----
-<!-- CopyRight -->
-<p align="center">
-  <!-- HTML content --> 
-  <a href="https://github.com/19cah">
-        <img src="https://img.shields.io/badge/Author-%4019cah-orange.svg"
-            alt="Carlos Abraham"></a>
-  <!-- HTML content-->
-</p>
+[←Back](./)
