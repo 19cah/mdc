@@ -1,5 +1,7 @@
 # Week1
 
+Java [Docummentation](https://docs.oracle.com/javase/7/docs/api/index.html).
+
 ## Anatomy of Java Program 
 
 - Classes 
