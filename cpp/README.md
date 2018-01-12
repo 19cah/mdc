@@ -1,3 +1,5 @@
+[![sdf](https://img.shields.io/badge/Abraham-%4019cah-orange.svg)](https://github.com/19cah)
+
 ## Content
 
 - [Class](class)
@@ -5,10 +7,3 @@
 - [Resources](resources)
 
 
-[Back](../)
-
-<p align="center">
-    <a href="https://github.com/19cah">
-        <img src="https://img.shields.io/badge/Abraham-%4019cah-orange.svg"
-            alt="Carlos Abraham"></a>
-</p>
