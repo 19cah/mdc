@@ -1,6 +1,8 @@
 # Week1
 
-Java [Docummentation](https://docs.oracle.com/javase/7/docs/api/index.html).
+Docummentation [JDK 7](https://docs.oracle.com/javase/7/docs/api/index.html).
+
+Docummentation for [JDK 9](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
 
 ## Anatomy of Java Program 
 
@@ -27,8 +29,7 @@ Identifiers cannot be `true`, `false` or `null`.
 ## Named Constants
 
 `final  datatype CONSTANT_NAME = Value`
-> C: `#define CONSTANT_NAME = Value`
-
-> C++  `int const CONSTANT_NAME = Value`
+> C: `#define CONSTANT_NAME = Value` <br>
+ C++  `int const CONSTANT_NAME = Value`
 
 ### Class Names (Capitalize the first letter)
