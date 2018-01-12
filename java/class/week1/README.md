@@ -33,3 +33,20 @@ Identifiers cannot be `true`, `false` or `null`.
  C++  `int const CONSTANT_NAME = Value`
 
 ### Class Names (Capitalize the first letter)
+
+- Double the other is converted to double
+- Float the other is converted to a float
+
+## Type Casting 
+
+-Implicit casting 
+    - `double d = 3.0;` (Type widening)
+    - `double d = 3.9;` ()
+    
+    
+-Explicit casting 
+    `int i = (int)3.0` 
+
+Examples
+
+[`SecondsToHours_and_Minutes`]()
