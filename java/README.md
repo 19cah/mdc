@@ -4,6 +4,5 @@
 
 - [Class](class)
 - [Assignments](assignments)
-- [Resources](resources)
 
 [←Back](./)
