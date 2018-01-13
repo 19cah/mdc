@@ -1,19 +1,19 @@
 ## Resources
 
-* Chapter 101.pdf
-* 02.pdf
-* 03.pdf
-* 04.pdf
-* 05.pdf
-* 06.pdf
-* 07.pdf
-* 08.pdf
-* arrays.pdf
+* [Chapter 1](01.pdf
+* [Chapter 2](02.pdf
+* [Chapter 3](03.pdf
+* [Chapter 4](04.pdf
+* [Chapter 5](05.pdf
+* [Chapter 6](06.pdf
+* [Chapter 7](07.pdf
+* [Chapter 8](08.pdf)
+* [Zen 1](zen01.pdf
+* [Zen 2](zen02.pdf
+* [Zen 3](zen03.pdf
+* [Zen 4](zen04.pdf
+* [Zen 5](zen05.pdf
+* [Zen 6](zen06.pdf
+* [Zen 10](zen10.pdf)
 * structuredata.pdf
-* zen01.pdf
-* zen02.pdf
-* zen03.pdf
-* zen04.pdf
-* zen05.pdf
-* zen06.pdf
-* zen10.pdf
+* arrays.pdf
