@@ -43,3 +43,27 @@ Start with Capitar Letter
 
 [Unicode List website](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 `\uFFFF`
+
+## 
+
+- `isDigigt(ch)`
+- `isLetter()`
+- `isLetterOfDigit()`
+- `isLowerCase(ch)`
+- `isUpperCase(Ch)`
+
+## Methods
+
+- `length()`
+- `charAt(index)`
+- `concat(s1)`
+- `toUpperCase()`
+- `toLowerCase()`
+- `trim()` 
+
+- `equals(s1)`
+- `equalsIgnoreCase(s1)`
+- `compareTo(s1)`
+- `compareToIgnoreCase(s1)`
+- `startsWith(prefix)`
+- `endWith(suffix)`
