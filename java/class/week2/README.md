@@ -16,34 +16,25 @@ The `boolean` not `bool` as C++
 
 ## Exponent Methods
 
-`exp(double a)`
+See [Tutorials Points](https://www.tutorialspoint.com/java/lang/java_lang_math.htm)
 
-Returns `e` raised to the pwer of `a`;
-
-`log(double a)`
-
-`log10(double a)`
-
-
-`pow(double a)`
-
-Return a raised to the power of b.
-
-`sqrt(double a)`
+- `exp(double a)`: This method returns Euler's number e raised to the power of a double value.
+- `log(double a)`: This method returns the natural logarithm (base e) of a double value.
+- `log10(double a)`: This method returns the base 10 logarithm of a double value.
+- `pow(double a)`: This method returns the value of the first argument raised to the power of the second argument.
+- `sqrt(double a)`: This method returns the correctly rounded positive square root of a double value.
 
 Return the square toot of a.
 
-## Roundng Methods
+## Math
 
-Math.ceil
-Math.floor()
-Math
-
-`max(a, b)` and `min(a, b)`
-
-`random`()
-Return a random double value in the range `[0.0,1.0)`
-
+- `Math.ceil()`
+- `Math.floor()`
+- `Math.round()`
+- `Math.abs()`
+- `max(a, b)` and `min(a, b)`
+- `random()`: Return a random double value in the range `[0.0,1.0)`
+ 
 ## Wrapper Classess
 
 Start with Capitar Letter
