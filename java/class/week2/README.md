@@ -68,4 +68,18 @@ Start with Capitar Letter
 - `startsWith(prefix)`
 - `endWith(suffix)`
 
-- 
+##### *Do not compare `double` with `0` 
+
+# For Loop
+
+``` java
+for(double u: myList){
+    System.out.println(u);
+}
+```
+
+``` java
+for(elemntType element: arrayRefVar){
+    // Process the element
+}
+```
