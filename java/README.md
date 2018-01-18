@@ -7,4 +7,4 @@
 - [Assignments](assignments)
 - [Resources ](resources)
 
-[←Back](./)
+[←Back](../)
