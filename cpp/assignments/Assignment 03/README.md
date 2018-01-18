@@ -13,7 +13,7 @@ See answer [`assignment3.2.cpp`](assignment3.2)
 
 ---
 
-[←Back](https://19cah.com/mdc/cpp/)
+[←Back](./)
 
 <p align="center">
   <a href="https://github.com/19cah">

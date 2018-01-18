@@ -4,6 +4,10 @@ Docummentation [JDK 7](https://docs.oracle.com/javase/7/docs/api/index.html).
 
 Docummentation for [JDK 9](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
 
+#### NetBeans
+
+[NetBeans Shortcuts](https://netbeans.org/project_downloads/usersguide/shortcuts-80.pdf)
+
 ## Anatomy of Java Program 
 
 - Classes 
