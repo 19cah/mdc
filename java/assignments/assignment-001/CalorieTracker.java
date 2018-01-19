@@ -20,7 +20,7 @@ public class CalorieTracker {
             
             }
         }
-        
+        System.out.println("Day\tBreakfast\tLunch\tDinner\tSnacks");
          for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
             
              double caloriesPerDay = 0;
@@ -50,46 +50,43 @@ public class CalorieTracker {
             
             System.out.print(table[row][col]+"\t");
             
-            //Store the Sum of the TOTAL of the calories per day on "caloriesPerDay"
+            //Store the Sum of the TOTAL of the calories per day on var "caloriesPerDay"
             caloriesPerDay += table[row][col];
-            averageOfCaloriesPerDay = caloriesPerDay / table.length; 
-            
-            
+            //Store the Average daily caloric consumption per day on var "averageOfCaloriesPerDay"
+            averageOfCaloriesPerDay = caloriesPerDay / table.length;
             }
+            
             System.out.println(caloriesPerDay +"\t"+ averageOfCaloriesPerDay);
-        }
+            
+         }
+         System.out.println("Max: "+ getMaxValue(table)+"\t"+"Min: "+ getMinValue(table));
+         
     }
-    /*
-    public static double AskTheUserForMeals(){
-    Scanner scan = new Scanner(System.in);
-    
-    double[][]arr = new double[DAYS_OF_THE_WEEK][NUMBER_OF_MEALS];
-    
-        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
-           
-           switch (row == 0)
-                dates = "Sunday";
-            else if(row == 1)
-                dates = "Monday";
-            else if(row == 2)
-                dates = "Tuesday";
-            else if(row == 3)
-                dates = "Wednesday";
-            else if(row == 4)
-                dates = "Thursday";
-            else if(row == 5)
-                dates = "Friday";
-            else
-                dates = "Saturday";
-            
-            
-            for(int j = 0; j < NUMBER_OF_MEALS; j++){
-            System.out.println("Enter the calories: ");
-            
+      public static double getMaxValue(double[][] numbers) {
+        double maxValue = numbers[0][0];
+        
+        for (int j = 0; j < numbers.length; j++) {
+            for (int i = 0; i < numbers[j].length; i++) {
+                if (numbers[j][i] > maxValue) {
+                    maxValue = numbers[j][i];
+                }
             }
         }
+        return maxValue;
     }
-*/
+
+    public static double getMinValue(double[][] numbers) {
+        double minValue = numbers[0][0];
+        
+        for (int j = 0; j < numbers.length; j++) {
+            for (int i = 0; i < numbers[j].length; i++) {
+                if (numbers[j][i] < minValue ) {
+                    minValue = numbers[j][i];
+                }
+            }
+        }
+        return minValue ;
+    }
 }
 
 
