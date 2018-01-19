@@ -66,7 +66,6 @@ public class CalorieTracker {
     double[][]arr = new double[DAYS_OF_THE_WEEK][NUMBER_OF_MEALS];
     
         for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
-            
            
            switch (row == 0)
                 dates = "Sunday";
