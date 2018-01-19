@@ -22,6 +22,10 @@ public class CalorieTracker {
         }
         
          for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+            
+             double caloriesPerDay = 0;
+             double averageOfCaloriesPerDay = 0;
+             
             String dates;
             switch (row){
                 case 0: dates = "Sunday";
@@ -46,8 +50,13 @@ public class CalorieTracker {
             
             System.out.print(table[row][col]+"\t");
             
+            //Store the Sum of the TOTAL of the calories per day on "caloriesPerDay"
+            caloriesPerDay += table[row][col];
+            averageOfCaloriesPerDay = caloriesPerDay / table.length; 
+            
+            
             }
-            System.out.println();
+            System.out.println(caloriesPerDay +"\t"+ averageOfCaloriesPerDay);
         }
     }
     /*
