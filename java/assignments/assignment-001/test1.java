@@ -17,7 +17,7 @@ public class CalorieTracker {
         
         for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
             
-             double caloriesPerDay = 0;
+             
              double averageOfCaloriesPerDay = 0;
              
             
@@ -61,7 +61,7 @@ public class CalorieTracker {
                 System.out.print(table[row][col]+"\t");
             
             //Store the Sum of the TOTAL of the calories per day on var "caloriesPerDay"
-            caloriesPerDay += table[row][col];
+            
             //Store the Average daily caloric consumption per day on var "averageOfCaloriesPerDay"
             averageOfCaloriesPerDay = caloriesPerDay / table.length;
             }
@@ -99,6 +99,23 @@ public class CalorieTracker {
             }
         }
         return numbers;
+    }
+    
+    /**
+     *  Total
+     * 
+     * @param numbers
+     * @return 
+     */
+    public static double total(double[][] numbers) {
+        double caloriesPerDay = 0;
+        
+        for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+            for(int col = 0; col < NUMBER_OF_MEALS; col++){
+                caloriesPerDay += numbers[row][col];
+            }
+        }
+        return caloriesPerDay;
     }
     
     
