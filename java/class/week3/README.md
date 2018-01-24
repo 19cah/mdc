@@ -1,3 +1,5 @@
+## An object is an instance of a class
+
 Whatever comes after new is a contructor
 
 ```java
@@ -11,10 +13,11 @@ Whatever comes after new is a contructor
                      }
 
 ```                    
-Class modifires
+Class modifires:
+
 - public
 - private 
 - abstract
 - final
 
-## An object is an instance of a class
+Constructors: are use to initialize objects.
