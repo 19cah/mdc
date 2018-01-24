@@ -1,25 +1,4 @@
-/*--------------------------------------------------------------------
 
- Name:  Carlos Abraham Hernandez
-
- Student ID: ******6424
-
- COP 2800 - Java Programming 
-
- Spring 2018 - T Th 6:15PM - 9:30PM
-
- Project # 1
-
- Plagiarism Statement
-
- I certify that this assignment is my own work and that I
- have not copied in part or whole or otherwise plagiarized 
- the work of other students and/or persons.
-
-1234567890123456789012345678901234567890123456789012345678901234567890
---------------------------------------------------------------------*/
-
-package calorietracker;
 
 import java.util.*;
 public class CalorieTracker {
@@ -37,7 +16,6 @@ public class CalorieTracker {
         		"Thursday",
         		"Friday",
         		"Saturday",
-        		
         };
     	
     	String[] meals = {
@@ -49,25 +27,20 @@ public class CalorieTracker {
     	
         double[][] table = getUserInput(weekDays, meals);
          
-  
-    printTable(table);
-    System.out.println();
-    getMaxValue(table,weekDays, meals);
-    getMinValue(table,weekDays, meals);
+        System.out.println();   
+        printTable(table, weekDays, meals);
+        System.out.println();
+        getMaxValue(table,weekDays, meals);
+        getMinValue(table,weekDays, meals);
     
-    System.out.println();
-    for (int i = 0; i < DAYS_OF_THE_WEEK ; i++) {
-        System.out.print( "total: "+total(table)[i] + " ");
+    		System.out.println();
+    		for (int i = 0; i < DAYS_OF_THE_WEEK ; i++) {
+    			System.out.println( "Total of calories on "+weekDays[i]+": "+total(table)[i] + " ");
     }
-    //System.out.println("Average: "+ getAverage(total(table)));
+    
+    System.out.printf("\nAverage: %.2f", getAverage(total(table))); //Using printf to show two decimals points 
          
     }
-    
-    
-    
-    
-    
-    
     
     /**
      *  ===========
@@ -98,13 +71,14 @@ public class CalorieTracker {
      *  Print Table
      *	========================
      */
-    public static void printTable(double[][] numbers) {
+    public static void printTable(double[][] numbers, String[] days, String[] meals) {
         
         for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+        		System.out.println(days[row].toUpperCase());
             for(int col = 0; col < NUMBER_OF_MEALS; col++){
-                System.out.print(numbers[row][col]+"\t");
+            		System.out.print(meals[col]+" "+numbers[row][col]+"\t");
             }
-            System.out.println();
+            System.out.println("\n");
         }
         
     }
@@ -128,27 +102,21 @@ public class CalorieTracker {
         return total;
     }
     
-    
-    
-    
     /**
      *  ========================
      *   Average
      *	========================
      */
-    public static double getAverage(double total) {
+    public static double getAverage(double[] total) {
         
-    		double average;
-    		average = total / (DAYS_OF_THE_WEEK * NUMBER_OF_MEALS);
-    		
-        return average;
+    		double weekTotal = 0;
+    		for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            weekTotal += total[i];
+        }
+    		return weekTotal / DAYS_OF_THE_WEEK;
     }
     
-    
-    
-    
-    
-    /**
+   /**
      *  ========================
      *   Biggest amount of Meal
      *	========================
@@ -169,13 +137,9 @@ public class CalorieTracker {
                 }
             }
         }
-        System.out.println("biggest was "+maxValue+" on "+ maxCalorieDay+" at "+maxCalorieMeal);
+        System.out.println("The biggest amount of calories eaten was "+maxValue+" on "+ maxCalorieDay+" at "+maxCalorieMeal);
         
     }
-    
-    
-    
-   
     
     /**
      *  ========================
@@ -198,7 +162,7 @@ public class CalorieTracker {
                 }
             }
         }
-        System.out.println("smallest was "+minValue+" on "+ minCalorieDay+" at "+minCalorieMeal);
+        System.out.println("The smallest amount of calories eaten was "+minValue+" on "+ minCalorieDay+" at "+minCalorieMeal);
         
     }
 }
