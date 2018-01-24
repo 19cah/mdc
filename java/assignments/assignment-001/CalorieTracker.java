@@ -4,7 +4,7 @@ package calorietracker;
 import java.util.*;
 public class CalorieTracker {
 
-    static final int DAYS_OF_THE_WEEK = 7; //7
+    static final int DAYS_OF_THE_WEEK = 7;//7;
     static final int NUMBER_OF_MEALS = 4; 
     
     public static void main(String[] args) {
@@ -38,8 +38,8 @@ public class CalorieTracker {
         
      
          
-    System.out.println("Max: "+ getMaxValue(table));
-    System.out.println("Min: "+ getMinValue(table));
+    getMaxValue(table,weekDays, meals);
+    getMinValue(table,weekDays, meals);
     System.out.println("Total: "+ total(table));
     System.out.println("Average: "+ getAverage(total(table)));
          
@@ -71,6 +71,7 @@ public class CalorieTracker {
             
             }
         }
+        scan.close();
         return numbers;
     }
     
@@ -117,17 +118,18 @@ public class CalorieTracker {
      *   Biggest amount of Meal
      *	========================
      */
-    public static double getMaxValue(double[][] numbers, String[] days, String[] meals) {
+    public static void getMaxValue(double[][] numbers, String[] days, String[] meals) {
         double maxValue = numbers[0][0];
         
-        for (double[] number : numbers) {
-            for (int i = 0; i < number.length; i++) {
-                if (number[i] > maxValue) {
-                    maxValue = number[i];
+        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            for(int j = 0; j < NUMBER_OF_MEALS; j++){
+                if (numbers[i][j] > maxValue) {
+                    maxValue = numbers[i][j];
+                    System.out.println("biggest was "+(int)maxValue+" on "+days[i]+" at "+meals[j]);
                 }
             }
         }
-        return maxValue;
+        
     }
     
     
@@ -141,16 +143,17 @@ public class CalorieTracker {
      *   Smallest amount of Meal
      *	========================
      */
-    public static double getMinValue(double[][] numbers) {
-        double minValue = numbers[0][0];
+    public static void getMinValue(double[][] numbers, String[] days, String[] meals) {
+        double maxValue = numbers[0][0];
         
-        for (double[] number : numbers) {
-            for (int i = 0; i < number.length; i++) {
-                if (number[i] < minValue) {
-                    minValue = number[i];
+        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            for(int j = 0; j < NUMBER_OF_MEALS; j++){
+                if (numbers[i][j] < maxValue) {
+                    maxValue = numbers[i][j];
+                    System.out.println("biggest was "+(int)maxValue+" on "+days[i]+" at "+meals[j]);
                 }
             }
         }
-        return minValue ;
+        
     }
 }
