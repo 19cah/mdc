@@ -1,8 +1,8 @@
 import java.util.*;
 public class CalorieTracker {
 
-    static final int DAYS_OF_THE_WEEK = 2;//7;
-    static final int NUMBER_OF_MEALS = 2; 
+    static final int DAYS_OF_THE_WEEK = 7;//7;
+    static final int NUMBER_OF_MEALS = 4; 
     
     public static void main(String[] args) {
     
@@ -44,7 +44,7 @@ public class CalorieTracker {
         }
         
         //Print the average daily calorie consumption for the whole week.
-        System.out.printf("\nAverage: %.2f", getAverage(total(table))); //Using printf to display two decimals points 
+        System.out.printf("\nThe average daily caloric consumption for the whole week: %.2f", getAverage(total(table))); //Using printf to display two decimals points 
          
     }
     
@@ -60,28 +60,24 @@ public class CalorieTracker {
         double[][] numbers;
         numbers = new double[DAYS_OF_THE_WEEK][NUMBER_OF_MEALS];
         boolean valid = false;
+        double input;
         
         for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
             for(int j = 0; j < NUMBER_OF_MEALS; j++){
-            	
+            	valid = false;
             	/* Do not accept any NON-POSITIVE or NON-NUMERIC value*/
-            	do {
-            		System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
-            			try {
-            				numbers[i][j] = scan.nextDouble();
-
-                        if (numbers[j][j] >= 1)
-                        		valid = true;
-                        else {
-                        		System.out.println("The value entered is not a positive number. ");
-                        		scan.nextLine();
-                        }
-            			}
-            			catch (InputMismatchException exception) {
-            				System.out.println("The value entered is not a number.");
-            				scan.nextLine();
-            			}
-            	} while (!(valid));
+            	
+            	valid = false; //Restart "valid" variable for each new user input
+                do {
+                	System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
+                    input = scan.nextDouble();
+                    if (input >= 0) {
+                        valid = true; 
+                    } else {
+                        System.out.println("The value entered is not a positive number.");
+                    }
+                } while (!valid);
+                numbers[i][j] = input; //Store the variable "input" in the array
             }
         }
         scan.close();
@@ -102,7 +98,7 @@ public class CalorieTracker {
         		for(int col = 0; col < NUMBER_OF_MEALS; col++){
             		
         			//Capitalize the first letter of the meal 
-            		System.out.print(meals[col].substring(0,1).toUpperCase()+meals[col].substring(1).toLowerCase()+" "+numbers[row][col]+"\t");
+            		System.out.print(meals[col].substring(0,1).toUpperCase()+meals[col].substring(1).toLowerCase()+": "+numbers[row][col]+"\t");
             }
             System.out.println("\n");
         }
