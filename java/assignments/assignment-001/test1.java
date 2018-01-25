@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 public class CalorieTracker {
 
@@ -16,7 +15,6 @@ public class CalorieTracker {
         		"Thursday",
         		"Friday",
         		"Saturday",
-        		
         };
     	
     	String[] meals = {
@@ -28,18 +26,18 @@ public class CalorieTracker {
     	
         double[][] table = getUserInput(weekDays, meals);
          
-  
-    printTable(table);
-    System.out.println();
-    getMaxValue(table,weekDays, meals);
-    getMinValue(table,weekDays, meals);
+        System.out.println();   
+        printTable(table, weekDays, meals);
+        System.out.println();
+        getMaxValue(table,weekDays, meals);
+        getMinValue(table,weekDays, meals);
     
     		System.out.println();
     		for (int i = 0; i < DAYS_OF_THE_WEEK ; i++) {
-    			System.out.print( "total: "+total(table)[i] + " ");
+    			System.out.println( "Total of calories on "+weekDays[i]+": "+total(table)[i] + " ");
     }
     
-    System.out.println("\nAverage: "+ getAverage(total(table)));
+    System.out.printf("\nAverage: %.2f", getAverage(total(table))); //Using printf to show two decimals points 
          
     }
     
@@ -58,9 +56,17 @@ public class CalorieTracker {
         
         for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
             for(int j = 0; j < NUMBER_OF_MEALS; j++){
-            System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
-            numbers[i][j] = scan.nextDouble();
-            
+            	System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
+            	do {
+                if(!scan.hasNextDouble()||numbers[i][j] <= 0 ) {
+                		System.out.println("Calories must be a positive Number. Please try again.");
+                		System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
+                		scan.next();
+                }
+                
+                numbers[i][j] = scan.nextDouble();
+                
+            }while(numbers[i][j] <= 0 || !scan.hasNextDouble());
             }
         }
         scan.close();
@@ -72,13 +78,14 @@ public class CalorieTracker {
      *  Print Table
      *	========================
      */
-    public static void printTable(double[][] numbers) {
+    public static void printTable(double[][] numbers, String[] days, String[] meals) {
         
         for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+        		System.out.println(days[row].toUpperCase());
             for(int col = 0; col < NUMBER_OF_MEALS; col++){
-                System.out.print(numbers[row][col]+"\t");
+            		System.out.print(meals[col]+" "+numbers[row][col]+"\t");
             }
-            System.out.println();
+            System.out.println("\n");
         }
         
     }
@@ -137,7 +144,7 @@ public class CalorieTracker {
                 }
             }
         }
-        System.out.println("biggest was "+maxValue+" on "+ maxCalorieDay+" at "+maxCalorieMeal);
+        System.out.println("The biggest amount of calories eaten was "+maxValue+" on "+ maxCalorieDay+" at "+maxCalorieMeal);
         
     }
     
@@ -162,7 +169,7 @@ public class CalorieTracker {
                 }
             }
         }
-        System.out.println("smallest was "+minValue+" on "+ minCalorieDay+" at "+minCalorieMeal);
+        System.out.println("The smallest amount of calories eaten was "+minValue+" on "+ minCalorieDay+" at "+minCalorieMeal);
         
     }
 }
