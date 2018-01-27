@@ -7,7 +7,7 @@ package myinteger;
 
 /**
  *
- * @author carlos.hernandez107
+ * @author Carlos Abraham, WWW.19cah.COM
  */
 public class MyInteger {
 
