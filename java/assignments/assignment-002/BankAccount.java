@@ -6,13 +6,14 @@ public class BankAccount {
     private int accountId;
     private double accountBalance;
     private double annualInterestRate;
-    private Date dateCreated;
+    private Date dateCreated = new Date();
     
     public BankAccount() {
         accountId =  (int)(Math.random()*9000)+1000;
     }
 
     public BankAccount(double accountBalance) {
+        accountId =  (int)(Math.random()*9000)+1000;
         this.accountBalance = accountBalance;
     }
 
@@ -53,11 +54,11 @@ public class BankAccount {
     }
     
     public double withdraw(double moneyOut){
-        return getAccountBalance()  - moneyOut;
+        return this.accountBalance -= moneyOut ;
     }
      
     public double deposit(double moneyIn){
-        return getAccountBalance()  + moneyIn;
+        return this.accountBalance += moneyIn;
     }
     
 }
