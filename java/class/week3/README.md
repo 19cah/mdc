@@ -31,3 +31,31 @@ Static variables and static methods are shared by all the instances of the class
 `public`: is visible to any class in any package.
 
 `private`: can be accessed only by the declaring class.
+
+## Classes
+
+- Date Class 
+```
+java.util.Date = new java.util.Date();
+System.out.println(date.toString());
+```
+- Random Class
+- 
+
+
+## Instance Member 
+
+``` java
+
+My Ingteger x = new MyInteger(s);
+
+s.isEven();
+```
+
+## Static Member
+``` java
+
+My Ingteger x = new MyInteger(s);
+
+MInteger.isEven();
+```
