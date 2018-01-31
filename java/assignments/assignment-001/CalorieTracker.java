@@ -1,118 +1,188 @@
 import java.util.*;
 public class CalorieTracker {
 
-    static final int DAYS_OF_THE_WEEK = 3;//7;
-    static final int NUMBER_OF_MEALS = 3;//4; 
+    static final int DAYS_OF_THE_WEEK = 7;//7;
+    static final int NUMBER_OF_MEALS = 4; 
     
     public static void main(String[] args) {
     
+    	String[] weekDays = { 
+        		"Sunday",
+        		"Monday",
+        		"Tuesday",
+        		"Wednesday",
+        		"Thursday",
+        		"Friday",
+        		"Saturday",
+        };
+    	
+    	String[] meals = {
+        		"breakfast",
+        		"lunch",
+        		"dinner",
+        		"snack",
+    		};
+    	
+        //Get User Input and Store the value in the array "table"
+    		double[][] table = getUserInput(weekDays, meals);
+        System.out.println();   
+        
+        //Print the values entered by the user as a table, to make it easier to read
+        printTable(table, weekDays, meals);
+        System.out.println();
+        
+        //Print the biggest amount of calories eaten during the week
+        getMaxValue(table,weekDays, meals);
+        
+        //Print the smallest amount of calories eaten during the week
+        getMinValue(table,weekDays, meals);
+        System.out.println();
+        
+    		//Print total of calories per day
+        for (int i = 0; i < DAYS_OF_THE_WEEK ; i++) {
+    			System.out.println( "Total of calories on "+weekDays[i]+": "+total(table)[i] + " ");
+        }
+        
+        //Print the average daily calorie consumption for the whole week.
+        System.out.printf("\nThe average daily caloric consumption for the whole week: %.2f", getAverage(total(table))); //Using printf to display two decimals points 
+         
+    }
+    
+    /**
+     *  ========================================
+     *   Ask user to enter the calories eaten  
+     *	========================================
+     */
+    public static double[][] getUserInput(String[] days, String[] meals) {
+        
         Scanner scan = new Scanner(System.in);
-        double[][] table;
-        table = new double[DAYS_OF_THE_WEEK][NUMBER_OF_MEALS];
         
-         for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+        double[][] numbers;
+        numbers = new double[DAYS_OF_THE_WEEK][NUMBER_OF_MEALS];
+        boolean valid = false;
+        double input;
+        
+        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            for(int j = 0; j < NUMBER_OF_MEALS; j++){
+            	valid = false;
+            	/* Do not accept any NON-POSITIVE or NON-NUMERIC value*/
+            	
+            	valid = false; //Restart "valid" variable for each new user input
+                do {
+                	System.out.print("Enter the calories eaten on "+days[i]+ " at "+meals[j]+": ");
+                    input = scan.nextDouble();
+                    if (input >= 0) {
+                        valid = true; 
+                    } else {
+                        System.out.println("The value entered is not a positive number.");
+                    }
+                } while (!valid);
+                numbers[i][j] = input; //Store the variable "input" in the array
+            }
+        }
+        scan.close();
+        return numbers;
+    }
+    
+    /**
+     *  =============================
+     *  Print values as a table
+     *	=============================
+     */
+    public static void printTable(double[][] numbers, String[] days, String[] meals) {
+        
+        for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
+        		
+        		//Display days all in Capital Letter
+        		System.out.println(days[row].toUpperCase());
+        		for(int col = 0; col < NUMBER_OF_MEALS; col++){
+            		
+        			//Capitalize the first letter of the meal 
+            		System.out.print(meals[col].substring(0,1).toUpperCase()+meals[col].substring(1).toLowerCase()+": "+numbers[row][col]+"\t");
+            }
+            System.out.println("\n");
+        }
+        
+    }
+    
+    /**
+     *  ====================================================
+     *   Calculate the amount of calories consumed each day
+     *	====================================================
+     */
+    public static double[] total(double[][] numbers) {
+        double totalPerDay = 0;
+        double[] total = new double[DAYS_OF_THE_WEEK];
+        
+        for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
             for(int col = 0; col < NUMBER_OF_MEALS; col++){
-            System.out.print("Enter the calories: ");
-            table[row][col] = scan.nextDouble();
-            
+                totalPerDay += numbers[row][col];
             }
+            total[row] = totalPerDay;
+            totalPerDay = 0;
         }
-        System.out.println("Day\tBreakfast\tLunch\tDinner\tSnacks");
-         for(int row = 0; row < DAYS_OF_THE_WEEK; row++){
-            
-             double caloriesPerDay = 0;
-             double averageOfCaloriesPerDay = 0;
-             
-            String dates;
-            switch (row){
-                case 0: dates = "Sunday";
-                    break;
-                case 1: dates = "Monday";
-                    break;
-                case 2: dates = "Tuesday";
-                    break;
-                case 3: dates = "Wednesday";
-                    break;
-                case 4: dates = "Thursday";
-                    break;
-                case 5: dates = "Friday";
-                    break;
-                default: dates = "Saturday";
-                    break;
-                    
-            }
-            System.out.print(dates + "\t");
-             for(int col = 0; col < NUMBER_OF_MEALS; col++){
-            
-            
-            System.out.print(table[row][col]+"\t");
-            
-            //Store the Sum of the TOTAL of the calories per day on variable "caloriesPerDay"
-            caloriesPerDay += table[row][col];
-            
-            //Store the Average daily caloric consumption per day on variable "averageOfCaloriesPerDay"
-            averageOfCaloriesPerDay = caloriesPerDay / table.length;
-            }
-            System.out.println(" ");
-            //System.out.println(caloriesPerDay +"\t"+ averageOfCaloriesPerDay);
-            
-         }
-         System.out.println("Max: "+ getMaxValue(table)+"\t"+"Min: "+ getMinValue(table));
-         System.out.println("Total: "+ getTotal(table));
+        return total;
     }
     
-    //Method to Calculate the Total of calories per day
-    public static double getTotal(double[][] numbers) {
-        double total = 0;
+    /**
+     *  ========================================================================
+     *   Calculate the average daily calorie consumption for the whole week.
+     *	========================================================================
+     */
+    public static double getAverage(double[] total) {
         
-        for (int j = 0; j < numbers.length; j++) {
-            for (int i = 0; i < numbers[j].length; i++) {
-                    total += numbers[j][i];
-                    
-            }
+    		double weekTotal = 0;
+    		for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            weekTotal += total[i];
         }
-       return total;
+    		return weekTotal / DAYS_OF_THE_WEEK;
     }
-    /*
-    //Method to Calculate the Average of calories per day
-    public static double getAverageOfCalories(double total) {
-        double average;
-        
-        for (int j = 0; j < numbers.length; j++) {
-            for (int i = 0; i < numbers[j].length; i++) {
-                if (numbers[j][i] > maxValue) {
-                    average = numbers[j][i];
-                }
-            }
-        }
-        return average;
-    }*/
     
-    //Method to Calculate Maximun Value of Calories
-    public static double getMaxValue(double[][] numbers) {
+   /**
+     *  ===========================================================
+     *   Get the biggest amount of calories eaten during the week
+     *	===========================================================
+     */
+    public static void getMaxValue(double[][] numbers, String[] days, String[] meals) {
         double maxValue = numbers[0][0];
+        String maxCalorieDay = days[0];
+        String maxCalorieMeal = meals[0];
         
-        for (int j = 0; j < numbers.length; j++) {
-            for (int i = 0; i < numbers[j].length; i++) {
-                if (numbers[j][i] > maxValue) {
-                    maxValue = numbers[j][i];
+        
+        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            for(int j = 0; j < NUMBER_OF_MEALS; j++){
+                if (numbers[i][j] > maxValue) {
+                    maxValue = numbers[i][j];
+                    maxCalorieDay = days[i];
+                    maxCalorieMeal = meals[j];
                 }
             }
         }
-        return maxValue;
+        System.out.println("The biggest amount of calories eaten was "+maxValue+" on "+ maxCalorieDay+" at "+maxCalorieMeal);
+        
     }
-
-    //Method to Calculate Minimun Value of Calories    
-    public static double getMinValue(double[][] numbers) {
+    
+    /**
+     *  ===========================================================
+     *   Get the smallest amount of calories eaten during the week
+     *	===========================================================
+     */
+     public static void getMinValue(double[][] numbers, String[] days, String[] meals) {
         double minValue = numbers[0][0];
+        String minCalorieDay = days[0];
+        String minCalorieMeal = meals[0];
         
-        for (int j = 0; j < numbers.length; j++) {
-            for (int i = 0; i < numbers[j].length; i++) {
-                if (numbers[j][i] < minValue ) {
-                    minValue = numbers[j][i];
+        
+        for(int i = 0; i < DAYS_OF_THE_WEEK; i++){
+            for(int j = 0; j < NUMBER_OF_MEALS; j++){
+                if (numbers[i][j] < minValue) {
+                    minValue = numbers[i][j];
+                    minCalorieDay = days[i];
+                    minCalorieMeal = meals[j];
                 }
             }
         }
-        return minValue ;
+        System.out.println("The smallest amount of calories eaten was "+minValue+" on "+ minCalorieDay+" at "+minCalorieMeal);
+        
     }
 }
