@@ -53,7 +53,20 @@ public class Circle2D {
         return (getX()+getRadius()) > x && (getY()+getRadius()> y);
     }
     
-    public void contains(Circle2D circle){
-        System.out.println(Math.sqrt((Math.pow(getX()-circle.getX(),2))+(Math.pow(getY()-circle.getY(),2))));//+circle.getRadius()< getRadius();
+    public double distance(Circle2D circle){
+        return (Math.sqrt((Math.pow(getX()-circle.getX(),2))+(Math.pow(getY()-circle.getY(),2))));
+    }
+    public boolean contains(Circle2D circle){
+        return distance(circle)+circle.getRadius()< getRadius();
+    }
+    public boolean overlap(Circle2D circle){
+       
+        if(!circle.contains(circle)){
+           if(distance(circle)> circle.getRadius()+getRadius()){
+               return false;
+           }
+       }
+        return true;
+        
     }
 }
