@@ -54,12 +54,12 @@ public class BankAccount {
         return annualInterestRate/12; // 12 => Months of the year
     }
     
-    //Method to let the user withdraw money on tbe bank account
+    //Method to withdraw money from the bank account
     public double withdraw(double moneyOut){
         return accountBalance -= moneyOut ;
     }
      
-    //Method to deposit money on the bank account
+    //Method to deposit money from the bank account
     public double deposit(double moneyIn){
         return accountBalance += moneyIn;
     }
