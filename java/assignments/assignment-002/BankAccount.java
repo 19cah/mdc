@@ -1,22 +1,30 @@
 package bankaccount;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BankAccount {
     private int accountId;
     private double accountBalance;
-    private double annualInterestRate;
+    private double annualInterestRate; 
     private Date dateCreated = new Date();
+    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy");
+    
     
     public BankAccount() {
-        accountId =  (int)(Math.random()*9000)+1000;
+        accountId =  generateRandomAccountID();
     }
 
     public BankAccount(double accountBalance) {
-        accountId =  (int)(Math.random()*9000)+1000;
+        accountId =  generateRandomAccountID();
         this.accountBalance = accountBalance;
     }
-
+    
+    //Four Digits Random Generator
+    public int generateRandomAccountID(){
+       return (int)(Math.random()*9000)+1000;
+    }
+    
     public int getAccountId() {
         return accountId;
     }
@@ -33,10 +41,6 @@ public class BankAccount {
         return dateCreated;
     }
 
-    public void setAccountId(int accountId) {
-        this.accountId = accountId;
-    }
-
     public void setAccountBalance(double accountBalance) {
         this.accountBalance = accountBalance;
     }
@@ -44,21 +48,27 @@ public class BankAccount {
     public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate;
     }
-
-    public void setDateCreated(Date dateCreated) {
-        this.dateCreated = dateCreated;
-    }
     
+    //Return monthly interest rate 
     public double getMonthlyInterestRate(){
-        return annualInterestRate/12;
+        return annualInterestRate/12; // 12 => Months of the year
     }
     
+    //Method to let the user withdraw money on tbe bank account
     public double withdraw(double moneyOut){
-        return this.accountBalance -= moneyOut ;
+        return accountBalance -= moneyOut ;
     }
      
+    //Method to deposit money on the bank account
     public double deposit(double moneyIn){
-        return this.accountBalance += moneyIn;
+        return accountBalance += moneyIn;
     }
     
+    //Display Data to the costumer
+    public static void displayData(BankAccount bankAccount){
+        System.out.println("Account ID: " + bankAccount.getAccountId());
+        System.out.println("Balance: $"+ bankAccount.getAccountBalance());
+        System.out.println("Monthly Interest:  "+ bankAccount.getMonthlyInterestRate()+"%");
+        System.out.println("Created on: "+ simpleDateFormat.format(bankAccount.getDateCreated()));
+    }
 }
