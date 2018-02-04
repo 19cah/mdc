@@ -1,38 +1,23 @@
 package bankaccount;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
+/* Test Bank Account */
 public class TestBankAccount {
 
-    public int car = 1;
     public static void main(String[] args){
         
+                                    //Set balance to $20,000
         BankAccount savingAccount = new BankAccount(20000);
-        BankAccount checkingAccount = new BankAccount();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy");
         
-        System.out.println("Account ID: " + savingAccount.getAccountId());
-        System.out.println("Balance: $"+ savingAccount.getAccountBalance());
-        System.out.println("Monthly Interest:  "+ savingAccount.getMonthlyInterestRate()+"%");
-        System.out.println("Created on: "+simpleDateFormat.format(savingAccount.getDateCreated()));
+                    //Set Annual Interest Rate to 4.5%
+        savingAccount.setAnnualInterestRate(4.5);
         
+        //Withdraw $2,500
         savingAccount.withdraw(2500);
-        System.out.println("Balance after withdraw: $"+ savingAccount.getAccountBalance());
-        savingAccount.deposit(500);
-        System.out.println("Balance after deposit: $"+ savingAccount.getAccountBalance());
-        savingAccount.withdraw(10);
-        System.out.println("Balance after withdraw: $"+ savingAccount.getAccountBalance());
         
-        System.out.println("Account ID: " + checkingAccount.getAccountId());
-        System.out.println("Balance: $"+ checkingAccount.getAccountBalance());
-        System.out.println("Monthly Interest:  "+ checkingAccount.getMonthlyInterestRate()+"%");
-        System.out.println("Created on: "+simpleDateFormat.format(checkingAccount.getDateCreated()));
+        //Deposit $3,000
+        savingAccount.deposit(3000);
         
-        checkingAccount.withdraw(190);
-        System.out.println("Balance after withdraw: $"+ checkingAccount.getAccountBalance());
-        checkingAccount.deposit(500);
-        System.out.println("Balance after deposit: $"+ checkingAccount.getAccountBalance());
-        checkingAccount.withdraw(10);
-        System.out.println("Balance after withdraw: $"+ checkingAccount.getAccountBalance());
-        
+        //Dysplay Bank Acount Data
+        BankAccount.displayData(savingAccount);
     }
 }
