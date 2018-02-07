@@ -1,4 +1,4 @@
-##1 Carlorie Tracker
+## Carlorie Tracker
 
 Your doctor says you are too heavy and wants you to keep track of your daily caloric intake.
 Therefore, she asked you to keep track of how many calories you eat every day on each of your
