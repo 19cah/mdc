@@ -46,7 +46,7 @@ In case the input value was `24`
 
 `24` completed credits makes you a `Freshman` similarly, for `Sophomore`, `Junior` and `Senior` values.
 
-See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%205/assignment5.cpp)
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/assignments/Assignment%2005/assignment5.cpp)
 
 ---
 
