@@ -1,4 +1,4 @@
-# Assignment 9
+# 9. Nested for loops
 
 The purpose of this exercise is to give you some experience at working with nested for loops.
 
@@ -22,7 +22,7 @@ XXXXXXXX
 XXXXXXXX
 XXXXXXXX
 ```
-See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/Assignment%209/assignment9.cpp)
+See code on Github [here](https://github.com/19cah/mdc/blob/master/cpp/assignments/Assignment%2009/assignment9.cpp)
 
 ---
 
