@@ -6,5 +6,6 @@
 - [Class](class)
 - [Assignments](assignments)
 - [Resources](resources)
+- [Examples](examples)
 
 [←Back](./)
