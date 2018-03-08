@@ -22,7 +22,7 @@ Miami  Dade College Computer Science Classes Purposes.
 
 - [C++](cpp)
 - [Java I](java)
-- [Java II](java-1)
+- [Java II](java-2)
 
 
 See on Github [here](/19cah/mdc)
