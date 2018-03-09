@@ -7,5 +7,6 @@
 - [Assignments](assignments)
 - [Resources](resources)
 - [Examples](examples)
+- [Object Oriented Programming in C++](oop)
 
 [←Back](./)
