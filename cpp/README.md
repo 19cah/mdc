@@ -1,4 +1,4 @@
-[![sdf](https://19cah.com/bandage.svg)](https://github.com/19cah)
+[![sdf](https://19cah.com/badge.svg)](https://github.com/19cah)
 
 ## Content
 > C++
