@@ -1,5 +1,4 @@
-<!-- README -->
-<p  align="center">
+
   <a href="https://twitter.com/intent/follow?screen_name=19cah">
         <img src="https://img.shields.io/twitter/follow/19cah.svg?style=social"
             alt="follow on Twitter"></a>
@@ -12,8 +11,7 @@
   <a href="https://github.com/19cah">
         <!-- Use git.io/19cah-bandge-->
         <img src="https://19cah.com/badge.svg"
-            alt="Carlos Abraham"></a>
-</p>
+             alt="Carlos Abraham"></a>
 
 # Computer Science
 Miami  Dade College Computer Science Classes Purposes.
