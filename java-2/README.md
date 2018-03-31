@@ -1,6 +1,6 @@
 # Java II 
 
-![Badage](https://19cah.com/badage.svg)
+![Badge](https://19cah.com/badge.svg)
 
 - [Database Programming](DatabaseProgramming.pdf)
 - [Files](Files.pdf)
