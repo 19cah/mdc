@@ -69,13 +69,18 @@ public class MergeSort
 
     // Driver method
     public static void main(String args[]){
-        int arr[] = {12, 11, 13, 5, 6, 7};
+        
+     int[] arr = new int[20];       
+    
+    for(int i = 0; i < arr.length; i++) {
+      arr[i] = (int)(Math.random()*999 + 1);
+    }
  
-        System.out.println("Given Array" + Arrays.toString(arr) );
+        System.out.println("Unordered List: " + Arrays.toString(arr) );
  
         MergeSort m = new MergeSort();
         m.sort(arr, 0, arr.length-1);
  
-        System.out.println("Sorted array" + Arrays.toString(arr));
+        System.out.println("Ordered  List:  " + Arrays.toString(arr));
     }
 }
