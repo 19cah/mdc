@@ -6,7 +6,7 @@
 - [Files](Files.pdf)
 - [Generics](Generics.pdf)
 - [Recursion](Recursion.pdf)
-- [JavaFX Basics](JavaFX Basics.pdf)
+- [JavaFX Basics](JavaFX%20Basics.pdf)
 - [EventDriven](EventDriven.pdf)
 
 
