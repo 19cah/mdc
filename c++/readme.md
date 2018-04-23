@@ -7,7 +7,7 @@
 * [Multidimensional array](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/multidimensional-array/README.md)
 * [OpenFile](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/openFile/README.md)
 * [Random](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/random/README.md)
-* [Switch](examples/switch.md)
+* [Switch](examples/using-switch-in-c++.md)
 * [Test](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/test/README.md)
 * [Getline](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/getline/README.md)
 * [Kilograms to lbs](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/examples/kilograms-to-lbs/README.md)

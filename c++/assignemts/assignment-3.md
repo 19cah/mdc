@@ -9,7 +9,7 @@ See answer [`assignment3.1.cpp`](https://github.com/19cah/mdc/tree/ca7c248cd8d1c
 
 See answer [`assignment3.2.cpp`](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/cpp/assignments/03-mins-to-seconds/assignment3.2)
 
-[←Back](03-mins-to-seconds-1.md)
+[←Back](assignment-3.md)
 
 ![Carlos Abraham](https://img.shields.io/badge/Abraham-%4019cah-orange.svg)
 
