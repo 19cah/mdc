@@ -45,7 +45,6 @@
     * [Using Switch in C++](cpp/examples/switch.md)
   * [README](cpp/examples-1.md)
 * [README](java-1.md)
-* [README](cpp-1.md)
 * Java Advanced
 * [Java II](java-2-1.md)
 
