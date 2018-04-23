@@ -47,6 +47,5 @@
 * [README](java-1.md)
 * [README](cpp-1.md)
 * Java Advanced
-  * [README](java-2/class-examples.md)
 * [Java II](java-2-1.md)
 
