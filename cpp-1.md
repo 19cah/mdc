@@ -1,8 +1,6 @@
 # README
 
-![sdf](https://19cah.com/badge.svg)
-
-## Content
+## **Content**
 
 > C++
 
@@ -12,5 +10,5 @@
 * [Examples](cpp/examples-1.md)
 * [Object Oriented Programming in C++](cpp/oop.md)
 
-[←Back](cpp-1.md)
+
 
