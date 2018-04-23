@@ -19,7 +19,7 @@
   * plugins
     * netbeans
       * [READEME](java/plugins/netbeans/reademe.md)
-* cpp
+* C++
   * [Resources](cpp/resources.md)
   * [Assignemts](cpp/assignments/README.md)
     * [Assignment 8](cpp/assignments/08-work-with-files.md)
