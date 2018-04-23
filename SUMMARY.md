@@ -47,4 +47,5 @@
 * [Java Advanced](java-advanced/README.md)
   * Class Examples
     * JavaFX
+* [Anonymous Handler Demo](anonymous-handler-demo.md)
 
