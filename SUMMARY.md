@@ -19,7 +19,7 @@
   * plugins
     * netbeans
       * [READEME](java/plugins/netbeans/reademe.md)
-* C++
+* [C++](cpp/README.md)
   * [Resources](cpp/resources.md)
   * [Assignemts](cpp/assignments/README.md)
     * [Assignment 8](cpp/assignments/08-work-with-files.md)
@@ -44,7 +44,5 @@
   * examples
     * [Using Switch in C++](cpp/examples/switch.md)
   * [README](cpp/examples-1.md)
-* [README](java-1.md)
-* Java Advanced
 * [Java II](java-2-1.md)
 
