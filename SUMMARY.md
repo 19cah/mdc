@@ -46,7 +46,7 @@
   * [README](cpp/examples-1.md)
 * [README](java-1.md)
 * [README](cpp-1.md)
-* java-2
+* Java Advanced
   * [README](java-2/class-examples.md)
 * [Java II](java-2-1.md)
 
