@@ -13,5 +13,5 @@ description: Miami Dade College Programming
 ## 2018
 
 * [Java ](./)1 \(COP 2800\)
-* [Java ](java-advanced.md)2 \(COP 2805\)
+* [Java ](java-advanced/)2 \(COP 2805\)
 

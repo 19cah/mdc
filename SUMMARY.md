@@ -1,24 +1,6 @@
 # Table of contents
 
 * [MDC](README.md)
-* Java
-  * [README](java/readme.md)
-  * [Assignments](java/assignments/README.md)
-    * [Carlorie Tracker](java/assignments/carlorie-tracker.md)
-    * [Bank Account](java/assignments/bank-account.md)
-    * [Advance BankAccount](java/assignments/advance-bankaccount/README.md)
-      * [README](java/assignments/advance-bankaccount/readme.md)
-    * [Assignment 4](java/assignments/assignment-4.md)
-  * class
-    * [Week1](java/class/week1.md)
-    * [README](java/class/readme.md)
-    * [README](java/class/readme-1/README.md)
-      * [README](java/class/readme-1/readme.md)
-    * [README](java/class/readme-2.md)
-    * [Week 5](java/class/week-5.md)
-  * plugins
-    * netbeans
-      * [READEME](java/plugins/netbeans/reademe.md)
 * [C++](c++/README.md)
   * [Resources](c++/resources.md)
   * [Assignemts](c++/assignemts/README.md)
@@ -44,5 +26,24 @@
   * examples
     * [Using Switch in C++](c++/examples/using-switch-in-c++.md)
   * [README](c++/readme.md)
-* [Java Advanced](java-advanced.md)
+* Java
+  * [README](java/readme.md)
+  * [Assignments](java/assignments/README.md)
+    * [Carlorie Tracker](java/assignments/carlorie-tracker.md)
+    * [Bank Account](java/assignments/bank-account.md)
+    * [Advance BankAccount](java/assignments/advance-bankaccount/README.md)
+      * [README](java/assignments/advance-bankaccount/readme.md)
+    * [Assignment 4](java/assignments/assignment-4.md)
+  * class
+    * [Week1](java/class/week1.md)
+    * [README](java/class/readme.md)
+    * [README](java/class/readme-1/README.md)
+      * [README](java/class/readme-1/readme.md)
+    * [README](java/class/readme-2.md)
+    * [Week 5](java/class/week-5.md)
+  * plugins
+    * netbeans
+      * [READEME](java/plugins/netbeans/reademe.md)
+* [Java Advanced](java-advanced/README.md)
+  * Class Examples
 
