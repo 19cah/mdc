@@ -1,7 +1,7 @@
 # Table of contents
 
 * [MDC](README.md)
-* java
+* Java
   * [README](java/resources.md)
   * [Assignments](java/assignments/README.md)
     * [Carlorie Tracker](java/assignments/assignment1.md)
