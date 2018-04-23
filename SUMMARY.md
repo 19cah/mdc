@@ -46,4 +46,5 @@
       * [READEME](java/plugins/netbeans/reademe.md)
 * [Java Advanced](java-advanced/README.md)
   * Class Examples
+* JavaFX
 
