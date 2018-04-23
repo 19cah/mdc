@@ -1,4 +1,0 @@
-- [Bubble Sort](BubbleSort.java)
-- [Insertion Sort](InsertionSort.java)
-- [Merge Sort](MergeSort.java)
-- [Selection Sort](SelectionSort.java)

@@ -1,9 +1,10 @@
+# README
+
 ## An object is an instance of a class
 
 Whatever comes after new is a contructor
 
 ```java
-
 [Class modifiers]class ClassName
                     [extends SuperClass]
                     [implements Interface 1,
@@ -11,14 +12,14 @@ Whatever comes after new is a contructor
                      {
                          ClassMember Declarations
                      }
+```
 
-```                    
 Class modifires:
 
-- public
-- private 
-- abstract
-- final
+* public
+* private 
+* abstract
+* final
 
 Constructors: are use to initialize objects.
 
@@ -34,28 +35,28 @@ Static variables and static methods are shared by all the instances of the class
 
 ## Classes
 
-- Date Class 
-```
-java.util.Date = new java.util.Date();
-System.out.println(date.toString());
-```
-- Random Class
-- 
+* Date Class 
 
+  ```text
+  java.util.Date = new java.util.Date();
+  System.out.println(date.toString());
+  ```
 
-## Instance Member 
+* Random Class
+* 
+## Instance Member
 
-``` java
-
+```java
 My Ingteger x = new MyInteger(s);
 
 s.isEven();
 ```
 
 ## Static Member
-``` java
 
+```java
 My Ingteger x = new MyInteger(s);
 
 MInteger.isEven();
 ```
+
