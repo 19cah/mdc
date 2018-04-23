@@ -47,4 +47,6 @@
 * [Java Advanced](java-advanced/README.md)
   * Class Examples
     * JavaFX
+      * [Multithreading](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/multihreading)
+      * [Simple JavaFX](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/javaFX)
 
