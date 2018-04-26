@@ -46,6 +46,7 @@
       * [READEME](java/plugins/netbeans/reademe.md)
 * [Java Advanced](java-advanced/README.md)
   * Class Examples
+    * [Tree](java-advanced/class-examples/tree.md)
     * JavaFX
       * [Multithreading](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/multihreading)
       * [Simple JavaFX](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/javaFX)
