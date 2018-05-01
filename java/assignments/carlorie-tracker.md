@@ -26,10 +26,17 @@ Write a program that stores this information in a two dimensional 7 × 4 array, 
 View [CalorieTracker.java](https://github.com/19cah/mdc/blob/master/java/assignments/carlorie-tracker.md) on Github.
 
 ```java
+/**
+ * Carlorie Tracker
+ *
+ * @author: Carlos Abraham 
+ * @url: www.19cah.com
+ * @github: 19cah
+ */
 import java.util.*;
 public class CalorieTracker {
 
-    static final int DAYS_OF_THE_WEEK = 7;//7;
+    static final int DAYS_OF_THE_WEEK = 7;
     static final int NUMBER_OF_MEALS = 4; 
 
     public static void main(String[] args) {
