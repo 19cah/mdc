@@ -34,12 +34,12 @@
       * [README](java/assignments/advance-bankaccount/readme.md)
     * [Assignment 4](java/assignments/assignment-4.md)
   * Class work
-    * [Week1](java/class/week1.md)
-    * [README](java/class/readme.md)
-    * [README](java/class/readme-1/README.md)
-      * [README](java/class/readme-1/readme.md)
-    * [README](java/class/readme-2.md)
-    * [Week 5](java/class/week-5.md)
+    * [Week1](java/class-work/week1.md)
+    * [README](java/class-work/readme.md)
+    * [README](java/class-work/readme-1/README.md)
+      * [README](java/class-work/readme-1/readme.md)
+    * [README](java/class-work/readme-2.md)
+    * [Week 5](java/class-work/week-5.md)
   * plugins
     * netbeans
       * [READEME](java/plugins/netbeans/reademe.md)
