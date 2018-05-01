@@ -26,15 +26,14 @@
   * examples
     * [Using Switch in C++](c++/examples/using-switch-in-c++.md)
   * [README](c++/readme.md)
-* Java
-  * [README](java/readme.md)
+* [Java](java/README.md)
   * [Assignments](java/assignments/README.md)
     * [Carlorie Tracker](java/assignments/carlorie-tracker.md)
     * [Bank Account](java/assignments/bank-account.md)
     * [Advance BankAccount](java/assignments/advance-bankaccount/README.md)
       * [README](java/assignments/advance-bankaccount/readme.md)
     * [Assignment 4](java/assignments/assignment-4.md)
-  * class
+  * Class work
     * [Week1](java/class/week1.md)
     * [README](java/class/readme.md)
     * [README](java/class/readme-1/README.md)
