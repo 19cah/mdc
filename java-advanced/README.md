@@ -1,4 +1,7 @@
-# Java Advanced
+<div align="center">
+	<img src="http://konpa.github.io/devicon/devicon.git/icons/java/java-original.svg" width="100">
+	<h2>Advanced Java</h2><br>
+<div>
 
 * [Database Programming](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/java-2/DatabaseProgramming.pdf)
 * [Files](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/java-2/Files.pdf)
@@ -9,4 +12,3 @@
 * [Multithreading](https://github.com/19cah/mdc/tree/ca7c248cd8d1c069f7ce811778c3205a9b4c0dfa/java-2/Multithreading.pdf)
 
 [Class Examples]()
-
