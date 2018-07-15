@@ -3,7 +3,11 @@
 	<h2>Introduction to Java</h2><br>
 <div>
 
+
+<div align="left">
+    
 * [Assignments](assignments)
 * [Class](class)
 * [Class Work](class-work)
 * [Resources](resources)
+
