@@ -3,7 +3,8 @@
 	<h2>Introduction to C plus plus</h2><br>
 <div>
 
-
+<div align="left">
+	
 #### Table of content
 
 - [Assignments](assignments)
