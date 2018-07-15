@@ -86,6 +86,13 @@
       * [Simple JavaFX](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/javaFX)
 
 
+# Helpful links
+
+- Olympic Programming Competitions [site](https://icpc.baylor.edu)
+- USA computer olympics [site](http://usaco.org/)
+- [Mozilla Webmaker](https://thimble.mozilla.org/en-US/user/19cah/1296290)
+- [Portable Apps](https://portableapps.com)
+
 
 
 [cash-me]: https://cdn.abraham.gq/badges/cash-me.svg
