@@ -37,53 +37,21 @@
 # Table of contents
 
 * [C Plus Plus](cplusplus)
-  * [Resources](c++/resources.md)
-  * [Assignemts](c++/assignemts/README.md)
-    * [Assignment 8](c++/assignemts/assignment-8.md)
-    * 01-add-numbers
-      * [README](c++/assignemts/01-add-numbers/readme.md)
-    * [Assignment 4](c++/assignemts/assignment-4/README.md)
-      * [README](c++/assignemts/assignment-4/readme.md)
-    * 03-mins-to-seconds
-      * [README](c++/assignemts/03-mins-to-seconds/readme.md)
-      * [README](c++/assignemts/03-mins-to-seconds/readme-1.md)
-    * 02-cylinder
-      * [README](c++/assignemts/02-cylinder/readme.md)
-    * [9. Nested for loops](c++/assignemts/9.-nested-for-loops.md)
-    * [Assignment 3](c++/assignemts/assignment-3.md)
-    * [Assignment 7](c++/assignemts/assignment-7.md)
-    * [README](c++/assignemts/readme.md)
-    * [Assignment 1](c++/assignemts/assignment-1.md)
-    * [Assignment  6](c++/assignemts/assignment-6.md)
-    * [Assignment 2](c++/assignemts/assignment-2.md)
-    * [Assignment 5](c++/assignemts/assignment-5.md)
-  * [Mother & Son](c++/mother-and-son.md)
-  * examples
-    * [Using Switch in C++](c++/examples/using-switch-in-c++.md)
-  * [README](c++/readme.md)
+  * [Assignemts](cplusplus/assignemts)
+	* [Class](cplusplus/class)
+	* [Examples](cplusplus/examples)
+	* [Object Oriented Programming](cplusplus/oop)
+	* [Resources](cplusplus/resources)
 * [Java](java)
-  * [Assignments](java/assignments/README.md)
-    * [Carlorie Tracker](java/assignments/carlorie-tracker.md)
-    * [Bank Account](java/assignments/bank-account.md)
-    * [Advance BankAccount](java/assignments/advance-bankaccount/README.md)
-      * [README](java/assignments/advance-bankaccount/readme.md)
-    * [Assignment 4](java/assignments/assignment-4.md)
-  * Class work
-    * [Week1](java/class-work/week1.md)
-    * [README](java/class-work/readme.md)
-    * [README](java/class-work/readme-1/README.md)
-      * [README](java/class-work/readme-1/readme.md)
-    * [README](java/class-work/readme-2.md)
-    * [Week 5](java/class-work/week-5.md)
-  * plugins
-    * netbeans
-      * [READEME](java/plugins/netbeans/reademe.md)
+  * [Assignemts](java/assignemts)
+	* [Class](java/class)
+	* [Class Work](java/class-work)
+	* [Resources](java/resources)
 * [Java Advanced](java-advanced)
-  * Class Examples
-    * [Tree](java-advanced/class-examples/tree.md)
-    * JavaFX
-      * [Multithreading](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/multihreading)
-      * [Simple JavaFX](https://github.com/19cah/mdc/tree/master/java-2/class-examples/javaFX-examples/javaFX)
+	* [Class Examples](java-advanced/class-examples)
+	* [Resources](java-advanced/resources)
+
+
 
 
 # Helpful links

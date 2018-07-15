@@ -1,7 +1,8 @@
-<div align="center">
+<div align="left">
 	<img src="http://konpa.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" width="100">
-	<h5>Introduction to Computer Science in C plus plus</h5>
+	<h1>C plus plus assignments</h1><br>
 <div>
+
 
 
 | No |  Problem               | Source                                                 |
