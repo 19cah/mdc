@@ -1,7 +1,5 @@
 # Tree
 
-{% code-tabs %}
-{% code-tabs-item title="treeSet.java" %}
 ```java
 package javaapplication1;
 
@@ -33,6 +31,3 @@ public class JavaApplication1 {
     
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
