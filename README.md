@@ -5,6 +5,7 @@
 > Some of Miami Dade College courses taken.
 
 <!-- Badges -->
+[![travis](https://img.shields.io/travis/abranhe/dtfe.svg?logo=travis)](https://travis-ci.org/abranhe/mdc)
 [![Patreon][patreon]](https://www.patreon.com/19cah)
 [![Cash Me][cash-me]](https://cash.me/$19cah)
 [![19cah](https://19cah.com/badge.svg)](https://github.com/19cah)
