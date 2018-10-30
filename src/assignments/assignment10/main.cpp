@@ -51,35 +51,6 @@ int main()
   return 0;
 }
 
-void slogan()
-{
-  cout << "   ___           __     ___                      ____    _                        " << endl;
-  cout << "  / _ \\___  ____/ /__  / _ \\___ ____  ___ ____  / __/___(_)__ ___ ___  _______    " << endl;
-  cout << " / , _/ _ \\/ __/  '_/ / ___/ _ `/ _ \\/ -_) __/ _\\ \\/ __/ (_-<(_-</ _ \\/ __(_-<    " << endl;
-  cout << "/_/|_|\\___/\\__/_/\\_\\_/_/   \\_,_/ .__/\\__/_/   /___/\\__/_/___/___/\\___/_/ /___/    " << endl;
-  cout << "                _____         /_/                                                 " << endl;
-  cout << "               / ___/__  __ _  ___                                                " << endl;
-  cout << "              / (_ / _ `/  ' \\/ -_)                                               " << endl;
-  cout << "              \\___/\\_,_/_/_/_/\\__/                                                " << endl;
-}
-
-void instructions()
-{
-  cout << endl;
-  cout << "              RULES                   " << endl;
-  cout << "              Scissors cuts paper.    " << endl;
-  cout << "              Paper covers rock.      " << endl;
-  cout << "              Rock crushes scissors.  " << endl;
-  cout << "                                      " << endl;
-  cout << "              Select your option:     " << endl;
-  cout << "              *******************     " << endl;
-  cout << "                                      " << endl;
-  cout << "              1. ROCK                 " << endl;
-  cout << "              2. PAPER                " << endl;
-  cout << "              3. SCISSORS             " << endl;
-
-}
-
 int getUserChoice()
 {
   int userInput;
@@ -104,8 +75,7 @@ int getComputerChoice()
 {
   unsigned int seed = time(0);
   srand(seed);
-  int randomNum = rand() % 3 + 1;
-  return randomNum;
+  return rand() % 3 + 1;
 }
 
 // Determine who is the winner
@@ -124,40 +94,6 @@ string determineWinner(int userValue, int cpuValue)
   return result;
 }
 
-// Display game result
-void displayChoice(string result)
-{
-  if(result == "win")
-  {
-    cout << endl;
-    cout << "              __  __            _      ___ _  __       " << endl;
-    cout << "              \\ \\/ /__  __ __  | | /| / (_) |/ /     " << endl;
-    cout << "               \\  / _ \\/ // /  | |/ |/ / /    /      " << endl;
-    cout << "               /_/\\___/\\_,_/   |__/|__/_/_/|_/       " << endl;
-    cout << endl;
-  }
-  else if(result == "lose")
-  {
-    cout << endl;
-    cout << "              __  __               __    ____  _____ ______     " << endl;
-    cout << "              \\ \\/ /___  __  __   / /   / __ \\/ ___// ____/  " << endl;
-    cout << "               \\  / __ \\/ / / /  / /   / / / /\\__ \\/ __/    " << endl;
-    cout << "               / / /_/ / /_/ /  / /___/ /_/ /___/ / /___        " << endl;
-    cout << "              /_/\\____/\\__,_/  /_____/\\____//____/_____/     " << endl;
-    cout << endl;
-  }
-
-  else if(result == "tie")
-  {
-    cout << endl;
-    cout << "                ________________     " << endl;
-    cout << "               /_  __/  _/ ____/     " << endl;
-    cout << "                / /  / // __/        " << endl;
-    cout << "               / / _/ // /___        " << endl;
-    cout << "              /_/ /___/_____/        " << endl;
-    cout << endl;
-  }
-}
 
 // Print cpu selection
 void whatWasSelected(int value)
