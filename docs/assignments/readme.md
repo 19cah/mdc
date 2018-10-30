@@ -1,7 +1,7 @@
 &nbsp;&nbsp;&nbsp;
 <img src="https://cdn.abranhe.com/projects/algorithms/logos/cpp.svg" width="100px"> &nbsp;&nbsp;
 
-## COP 1224 Assignments
+## COP 1334 Assignments
 
 - [Assignment 1](assignment01)
 - [Assignment 2](assignment02)

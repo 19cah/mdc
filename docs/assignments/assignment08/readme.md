@@ -11,4 +11,4 @@ Write a program that opens the file, reads all the numbers from the file, and ca
 - The average of all the numbers in the file
 - The program should display the number of numbers found in the file, the sum of the numbers, and the average of the numbers.
 
-We use the file [`random.txt`](data/random.txt) to use the values on the program
+We use the file [`random.txt`](random.txt) to use the values on the program

@@ -14,7 +14,7 @@ Write a short C++ program that will calculate the volume of the cylinder using t
 
 &nbsp;&nbsp;&nbsp;
 
-![Cylinder](data/cylinder.png)
+![Cylinder](cylinder.png)
 
 &nbsp;&nbsp;&nbsp;
 

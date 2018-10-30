@@ -14,10 +14,13 @@ Do not use this project to measure my programming stills, this project was creat
 #### Table of content
 
 - [Assignments](assignments)
-- [Class](class)
-- [Examples](examples)
 - [Object Oriented Programming](oop)
 - [Resources](resources)
+
+<!--
+- [Class](class)
+- [Examples](examples)
+-->
 
 ## Assignments
 
