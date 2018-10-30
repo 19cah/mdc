@@ -8,7 +8,7 @@ OBJS=$(subst .cpp,.o,$(SRCS))
 all: tool
 
 tool: $(OBJS)
-	$(CXX) $(CPPFLAGS) -o assigment $(OBJS)
+	$(CXX) $(CPPFLAGS) -o assignment $(OBJS)
 
 depend: .depend
 
