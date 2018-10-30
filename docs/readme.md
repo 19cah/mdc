@@ -4,7 +4,7 @@
 	<img src="https://cdn.abranhe.com/projects/algorithms/logos/cpp.svg" width="20%">
 </div>
 
-*COP 1334 Class Source Code*
+> *COP 1334 Class Source Code*
 
 #### Table of content
 
@@ -14,7 +14,7 @@
 - [Object Oriented Programming](oop)
 - [Resources](resources)
 
-# Helpful links
+## Helpful links
 
 - Olympic Programming Competitions [site](https://icpc.baylor.edu)
 - USA computer olympics [site](http://usaco.org/)

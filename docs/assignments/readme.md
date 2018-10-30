@@ -1,20 +1,15 @@
-<div align="left">
-	<img src="http://konpa.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" width="100">
-	<h1>C plus plus assignments</h1><br>
-<div>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.abranhe.com/projects/algorithms/logos/cpp.svg" width="100px"> &nbsp;&nbsp;
 
+## COP 1224 Assignments
 
-
-| No |  Problem               | Source                                                 |
-| -  | ---------------------- | ------------------------------------------------------ |
-| 1  | Add Numbers            | [01-add-numbers](01-add-numbers)                       |
-| 2  | Cylinder               | [02-cylinder](02-cylinder)                             |
-| 3  | Minutes to Seconds     | [03-mins-to-seconds](03-mins-to-seconds)               |
-| 4  | Theater                | [04-theater](04-theater)                               |
-| 5  | Student Classification | [05-student-classification](05-student-classification) |
-| 6  | ATM                    | [06-atm](06-atm)                                       |
-| 7  | Squares                | [07-squares](07-squares)                               |
-| 8  | Work with Files        | [08-work-with-files](08-work-with-files)               |
-| 9  | Nested For Loops       | [09-nested-for-loops](09-nested-for-loops)             |
-| 10 | Rock Paper Scissors    | [10-rock-paper-scissors](10-rock-paper-scissors)       |
-| 11 | Arrays                 | [11-arrays](11-arrays)                                 |
+- [Assignment 1](assigment01)
+- [Assignment 2](assigment02)
+- [Assignment 3](assigment03)
+- [Assignment 4](assigment04)
+- [Assignment 5](assigment05)
+- [Assignment 6](assigment06)
+- [Assignment 7](assigment07)
+- [Assignment 8](assigment08)
+- [Assignment 9](assigment09)
+- [Assignment 10](assigment10)
