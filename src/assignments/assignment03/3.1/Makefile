@@ -1,16 +1,25 @@
-TARGET=main
-INCDIR=.
-CC=gcc
-CFLAGS=-I$(INCDIR) -Wall -Wextra -O3
+CXX=g++
+RM=rm -f
+CPPFLAGS=-Wall -Werror
 
-OBJ = main.o
+SRCS=main.cpp
+OBJS=$(subst .cpp,.o,$(SRCS))
 
-all: $(TARGET)
+all: tool
 
-$(TARGET): $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGS)
+tool: $(OBJS)
+	$(CXX) $(CPPFLAGS) -o assigment $(OBJS)
 
-.PHONY: clean
+depend: .depend
+
+.depend: $(SRCS)
+	$(RM) ./.depend
+	$(CXX) $(CPPFLAGS) -MM $^>>./.depend;
 
 clean:
-	rm -f $(TARGET) $(OBJ) *~ core
+	$(RM) $(OBJS)
+
+distclean: clean
+	$(RM) *~ .depend
+
+include .depend

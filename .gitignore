@@ -98,3 +98,7 @@ fabric.properties
 *.exe
 *.out
 *.app
+
+# My generated files
+*.depend
+*assignment

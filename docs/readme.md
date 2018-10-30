@@ -9,8 +9,6 @@
 #### Table of content
 
 - [Assignments](assignments)
-- [Class](class)
-- [Examples](examples)
 - [Object Oriented Programming](oop)
 - [Resources](resources)
 

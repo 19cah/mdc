@@ -3,13 +3,13 @@
 
 ## COP 1224 Assignments
 
-- [Assignment 1](assigment01)
-- [Assignment 2](assigment02)
-- [Assignment 3](assigment03)
-- [Assignment 4](assigment04)
-- [Assignment 5](assigment05)
-- [Assignment 6](assigment06)
-- [Assignment 7](assigment07)
-- [Assignment 8](assigment08)
-- [Assignment 9](assigment09)
-- [Assignment 10](assigment10)
+- [Assignment 1](assignment01)
+- [Assignment 2](assignment02)
+- [Assignment 3](assignment03)
+- [Assignment 4](assignment04)
+- [Assignment 5](assignment05)
+- [Assignment 6](assignment06)
+- [Assignment 7](assignment07)
+- [Assignment 8](assignment08)
+- [Assignment 9](assignment09)
+- [Assignment 10](assignment10)

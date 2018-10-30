@@ -17,18 +17,17 @@ const double PI = 3.14159;
 
 int main()
 {
-	double radius = 8.67, height = 25.85, volume;
+	double radius = 8.67;
+	double height = 25.85;
+	double volume = volumeCalculator(radius, height);
 
-	volume = volumeCalculator(radius, height);
-
-	cout << "The volume of the cylinder with radius " << radius << " and height " << height << " is " << volume << endl;
+	cout << "The volume of the cylinder with radius "
+		 << radius << " and height " << height
+		 << " is " << volume << endl;
 	return 0;
 }
 
-/**
- * Fuction to compute volume
- *
- */
+// Fuction to compute volume
 double volumeCalculator(double radius, double height)
 {
 	return pow(radius, 2) * height * PI;

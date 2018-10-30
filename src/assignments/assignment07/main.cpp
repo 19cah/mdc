@@ -15,26 +15,21 @@ using namespace std;
 
 int main()
 {
-	int number = 1, squareNum, lastNum;
+	cout << "Only for odds numbers." << endl;
 
-	cout << "ONLY ODDS NUMBERS" << endl;
+	for (int i = 0; i < 15; i++) cout << "-";
 
-	for (int i = 0; i < 15; i++)
-	{
-		cout << "-";
-	}
-
+	int lastNumber;
 	cout << "\nHow many odd numbers do you want to know the square?: ";
-	cin >> lastNum;
+	cin >> lastNumber;
 
-	for (int i = 0; i < lastNum; i++)
+	int odd = 1;
+	for (int i = 0; i < lastNumber; i++)
 	{
-		squareNum = pow(number, 2);
-		cout << number << " squared: " << squareNum << endl;
+		cout << odd << " squared: " << pow(odd, 2) << endl;
 
 		// Increment number by 2 to get odds numbers
-		number += 2;
+		odd += 2;
 	}
-	
 	return 0;
 }

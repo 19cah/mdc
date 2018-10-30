@@ -1,4 +1,8 @@
 //
+// This file include <conio.h> & <Windowds.h>
+// which are Windows libraries, so it won't work
+// on your UNIX computer. :(
+//
 // Ask the user for their ATM PIN. The program should
 // capture the PIN and compare it to 1111. If the PIN
 // is correct ask the user to select one of the following
